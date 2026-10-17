@@ -1,0 +1,174 @@
+Facility_ID,Facility_Name,City,City_Key,State,Latitude,Longitude,Facility_Type,Beds,Doctors,Ownership,Data_Provenance,Data_Year
+FAC_CHE_001,Rajiv Gandhi Government General Hospital,Chennai,chennai,Tamil Nadu,13.0805,80.2785,General Hospital,1200,150,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_002,Government Stanley Medical College Hospital,Chennai,chennai,Tamil Nadu,13.109,80.287,General Hospital,1000,120,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_003,Government Kilpauk Medical College Hospital,Chennai,chennai,Tamil Nadu,13.0785,80.2415,General Hospital,750,95,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_004,Government Royapettah Hospital,Chennai,chennai,Tamil Nadu,13.0535,80.2605,Government Hospital,550,70,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_005,Tambaram Sanatorium Government Hospital,Chennai,chennai,Tamil Nadu,12.934,80.138,Government Hospital,300,45,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_006,"Apollo Hospitals Main, Greams Road",Chennai,chennai,Tamil Nadu,13.0605,80.2525,Multi-Speciality Hospital,550,90,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_007,"MIOT International, Manapakkam",Chennai,chennai,Tamil Nadu,13.018,80.178,Multi-Speciality Hospital,500,80,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_008,"SIMS Hospital, Vadapalani",Chennai,chennai,Tamil Nadu,13.051,80.211,Multi-Speciality Hospital,345,60,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_009,"Fortis Malar Hospital, Adyar",Chennai,chennai,Tamil Nadu,13.003,80.261,Multi-Speciality Hospital,220,45,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_010,"Kauvery Hospital, Alwarpet",Chennai,chennai,Tamil Nadu,13.037,80.251,Multi-Speciality Hospital,250,45,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_CHE_011,Thousand Lights East Community Health Centre,Chennai,chennai,Tamil Nadu,13.081553,80.244369,CHC,44,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_012,Virugambakkam North Community Health Centre,Chennai,chennai,Tamil Nadu,12.940059,80.227409,CHC,26,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_013,Palavakkam Community Health Centre,Chennai,chennai,Tamil Nadu,13.078969,80.331733,CHC,37,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_014,Ice House Community Health Centre,Chennai,chennai,Tamil Nadu,13.069063,80.192204,CHC,34,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_015,Kathivakkam Community Health Centre,Chennai,chennai,Tamil Nadu,13.109544,80.3237,CHC,36,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_016,Ice House Community Health Centre,Chennai,chennai,Tamil Nadu,13.072915,80.204731,CHC,29,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_017,Korukkupet Community Health Centre,Chennai,chennai,Tamil Nadu,13.169715,80.277969,CHC,30,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_018,Ramapuram Community Health Centre,Chennai,chennai,Tamil Nadu,12.967744,80.239875,CHC,29,8,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_019,Kathivakkam Community Health Centre,Chennai,chennai,Tamil Nadu,13.09794,80.324825,CHC,45,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_020,Pallikaranai Marsh Community Health Centre,Chennai,chennai,Tamil Nadu,12.981783,80.328238,CHC,48,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_021,Kotturpuram Community Health Centre,Chennai,chennai,Tamil Nadu,13.013448,80.304423,CHC,54,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_022,Thoraipakkam South Community Health Centre,Chennai,chennai,Tamil Nadu,13.009642,80.314939,CHC,42,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_023,Kaladipet Community Health Centre,Chennai,chennai,Tamil Nadu,13.041341,80.327031,CHC,39,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_024,Mirsahibpet Community Health Centre,Chennai,chennai,Tamil Nadu,13.056128,80.216465,CHC,42,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_025,Valasaravakkam Central Community Health Centre,Chennai,chennai,Tamil Nadu,12.987108,80.212058,CHC,51,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_026,Madhavaram Central Community Health Centre,Chennai,chennai,Tamil Nadu,13.181978,80.309662,CHC,38,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_027,Chetpet West Community Health Centre,Chennai,chennai,Tamil Nadu,13.125197,80.180981,CHC,42,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_028,Korattur North Community Health Centre,Chennai,chennai,Tamil Nadu,13.144206,80.214281,CHC,37,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_029,Anna Nagar West Community Health Centre,Chennai,chennai,Tamil Nadu,13.076793,80.197582,CHC,30,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_030,Pattalam Community Health Centre,Chennai,chennai,Tamil Nadu,13.224076,80.205501,CHC,37,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_031,Sanjeevi Rayan Koil Community Health Centre,Chennai,chennai,Tamil Nadu,13.196815,80.28949,CHC,25,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_032,Nerkundram Community Health Centre,Chennai,chennai,Tamil Nadu,12.993807,80.227587,CHC,49,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_033,Kodungaiyur West Community Health Centre,Chennai,chennai,Tamil Nadu,13.214972,80.312186,CHC,34,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_034,Wimco Nagar Community Health Centre,Chennai,chennai,Tamil Nadu,13.070789,80.330292,CHC,26,8,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_035,Meenambakkam Airport Community Health Centre,Chennai,chennai,Tamil Nadu,12.923703,80.233906,CHC,28,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_036,Nehru Stadium Area Community Health Centre,Chennai,chennai,Tamil Nadu,13.226611,80.307602,CHC,35,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_037,Thirumangalam Community Health Centre,Chennai,chennai,Tamil Nadu,13.119817,80.23387,CHC,35,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_038,Chinna Sekkadu Community Health Centre,Chennai,chennai,Tamil Nadu,13.140897,80.329524,CHC,38,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_039,Chepauk Stadium Community Health Centre,Chennai,chennai,Tamil Nadu,13.064042,80.193805,CHC,39,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_040,Chinmaya Nagar Community Health Centre,Chennai,chennai,Tamil Nadu,13.019393,80.238598,CHC,26,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_041,Korattur South Community Health Centre,Chennai,chennai,Tamil Nadu,13.157248,80.197977,CHC,36,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_042,Madipakkam West Community Health Centre,Chennai,chennai,Tamil Nadu,12.92052,80.254474,CHC,34,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_043,Kannadasan Nagar Community Health Centre,Chennai,chennai,Tamil Nadu,13.198066,80.319287,CHC,46,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_044,Velachery West Community Health Centre,Chennai,chennai,Tamil Nadu,12.937626,80.298606,CHC,47,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_045,Alwarthirunagar Community Health Centre,Chennai,chennai,Tamil Nadu,12.97062,80.220784,CHC,48,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_046,Thiruvanmiyur North Community Health Centre,Chennai,chennai,Tamil Nadu,12.922034,80.294279,CHC,50,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_047,Old Washermanpet Community Health Centre,Chennai,chennai,Tamil Nadu,13.203816,80.292604,CHC,31,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_048,Saligramam Community Health Centre,Chennai,chennai,Tamil Nadu,12.955034,80.213693,CHC,42,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_049,Villivakkam North Community Health Centre,Chennai,chennai,Tamil Nadu,13.099604,80.185745,CHC,41,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_050,Sholinganallur Sector 12 Community Health Centre,Chennai,chennai,Tamil Nadu,13.065321,80.331339,CHC,38,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_051,Nandambakkam Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.923699,80.294012,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_052,Indira Nagar Adyar Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.972623,80.311928,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_053,Kilpauk North Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.052147,80.195022,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_054,Anna Nagar East Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.086325,80.1865,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_055,Nehru Stadium Area Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.21999,80.301915,UPHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_056,Sholinganallur IT Hub Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.051345,80.328425,UPHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_057,Sholinganallur Sector 13 Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.040273,80.338471,UPHC,15,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_058,Mogappair West Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.189199,80.19681,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_059,Surapet Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.199718,80.319022,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_060,Agaram Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.209356,80.235804,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_061,Injambakkam ECR Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.05126,80.3288,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_062,Chinmaya Nagar Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.014469,80.239867,UPHC,8,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_063,Thiruvottiyur West Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.133062,80.333056,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_064,Surapet Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.205521,80.327779,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_065,Kathirvedu Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.208284,80.32939,UPHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_066,Maduravoyal South Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.044529,80.241262,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_067,Mogappair East Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.093951,80.203962,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_068,Periamet Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.235587,80.251225,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_069,Motilal Nagar Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.226636,80.281413,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_070,Ellaiamman Koil Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.110747,80.325822,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_071,Moovarasanpet Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.962249,80.284928,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_072,Perambur North Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.213143,80.263045,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_073,Rajakadai Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.058764,80.328593,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_074,IIT Madras Enclave Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.009785,80.311261,UPHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_075,Vadapalani Temple Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.978747,80.209816,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_076,Maduravoyal North Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.92779,80.249996,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_077,Ayanavaram East Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.214804,80.221145,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_078,Sowcarpet Central Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.240196,80.25252,UPHC,12,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_079,Puthagaram Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.237245,80.329749,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_080,Madipakkam West Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.921272,80.251231,UPHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_081,Triplicane North Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.998867,80.218023,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_082,Thattankulam Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.206433,80.334763,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_083,Bojaraja Nagar Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.173886,80.297225,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_084,Marina Beach Enclave Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.058672,80.187575,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_085,Pazhavanthangal Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.905276,80.245216,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_086,Mogappair West Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.185489,80.184838,UPHC,11,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_087,Alandur Court Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.942188,80.264742,UPHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_088,Harbour Port Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.210601,80.26476,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_089,Pattalam Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.220345,80.198688,UPHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_090,Chepauk Stadium Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.064212,80.199163,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_091,Pallikaranai Central Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.988697,80.334105,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_092,Gopalapuram Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.049526,80.173673,UPHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_093,Broadway Commercial Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.207243,80.228346,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_094,Kaladipet Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.044739,80.333198,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_095,Mannurpet Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.139498,80.184203,UPHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_096,Sholinganallur Sector 13 Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.03937,80.328181,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_097,Ekkatuthangal Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.895969,80.273037,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_098,Madipakkam West Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.919603,80.247563,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_099,Manali Sector 14 Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.095949,80.322885,UPHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_100,Kallikuppam Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.225588,80.199175,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_101,Valasaravakkam Central Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.987669,80.214768,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_102,Thoraipakkam South Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.005733,80.319737,UPHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_103,Mirsahibpet Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.052801,80.218352,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_104,Ice House Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.072006,80.198508,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_105,Rajakadai Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.061892,80.326961,UPHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_106,Nandambakkam Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.930355,80.278938,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_107,Royapettah Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.064781,80.218667,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_108,Teynampet Central Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.006708,80.210604,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_109,Perungudi OMR Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.964124,80.325607,UPHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_110,Valasaravakkam Central Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,12.986731,80.21592,UPHC,12,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_111,Mogappair West Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.183106,80.192661,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_112,Puzhal Lake Urban Primary Health Centre,Chennai,chennai,Tamil Nadu,13.144749,80.300076,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_113,Guindy Industrial Estate Primary Health Centre,Chennai,chennai,Tamil Nadu,12.991748,80.269005,PHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_114,Anna Nagar East Primary Health Centre,Chennai,chennai,Tamil Nadu,13.085254,80.18049,PHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_115,Nanganallur South Primary Health Centre,Chennai,chennai,Tamil Nadu,12.975616,80.25546,PHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_116,Thousand Lights East Primary Health Centre,Chennai,chennai,Tamil Nadu,13.074666,80.230526,PHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_117,Villivakkam North Primary Health Centre,Chennai,chennai,Tamil Nadu,13.100539,80.180076,PHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_118,Rajakadai Primary Health Centre,Chennai,chennai,Tamil Nadu,13.062702,80.330138,PHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_119,Thousand Lights West Primary Health Centre,Chennai,chennai,Tamil Nadu,13.062647,80.227774,PHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_120,Korattur South Primary Health Centre,Chennai,chennai,Tamil Nadu,13.159169,80.200051,PHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_121,Madipakkam East Primary Health Centre,Chennai,chennai,Tamil Nadu,12.983828,80.325575,PHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_122,Nehru Stadium Area Primary Health Centre,Chennai,chennai,Tamil Nadu,13.219067,80.294328,PHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_123,Manali Sector 10 Primary Health Centre,Chennai,chennai,Tamil Nadu,13.161872,80.328569,PHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_124,Sanjeevi Rayan Koil Primary Health Centre,Chennai,chennai,Tamil Nadu,13.197415,80.288718,PHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_125,Mathur MMDA Primary Health Centre,Chennai,chennai,Tamil Nadu,13.136058,80.328976,PHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_126,Ayanavaram West Primary Health Centre,Chennai,chennai,Tamil Nadu,13.210582,80.246294,PHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_127,Manali Sector 10 Primary Health Centre,Chennai,chennai,Tamil Nadu,13.167801,80.33237,PHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_128,Muthialpet Primary Health Centre,Chennai,chennai,Tamil Nadu,13.226005,80.244263,PHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_129,Madipakkam West Primary Health Centre,Chennai,chennai,Tamil Nadu,12.923853,80.258101,PHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_130,Ullagaram Primary Health Centre,Chennai,chennai,Tamil Nadu,12.953505,80.33313,PHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_131,Kasimedu Harbour Primary Health Centre,Chennai,chennai,Tamil Nadu,13.186391,80.299891,PHC,9,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_132,Nerkundram Primary Health Centre,Chennai,chennai,Tamil Nadu,13.002823,80.218607,PHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_133,Korattur South Primary Health Centre,Chennai,chennai,Tamil Nadu,13.152906,80.200168,PHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_134,Wimco Nagar Primary Health Centre,Chennai,chennai,Tamil Nadu,13.065566,80.333086,PHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_135,Villivakkam South Primary Health Centre,Chennai,chennai,Tamil Nadu,13.120624,80.193641,PHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_136,Vallal Seethakathi Primary Health Centre,Chennai,chennai,Tamil Nadu,13.202318,80.271324,PHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_137,Shenoy Nagar Primary Health Centre,Chennai,chennai,Tamil Nadu,13.135742,80.192535,PHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_138,Shenoy Nagar Primary Health Centre,Chennai,chennai,Tamil Nadu,13.133443,80.187322,PHC,14,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_139,Padi Junction Primary Health Centre,Chennai,chennai,Tamil Nadu,13.122241,80.208633,PHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_140,Moovarasanpet Primary Health Centre,Chennai,chennai,Tamil Nadu,12.968606,80.280422,PHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_141,Shanthi Colony Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.104905,80.187775,Private Clinic,18,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_142,Kovilambakkam Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.933391,80.309098,Private Clinic,20,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_143,Chinna Sekkadu Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.138188,80.333536,Private Clinic,16,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_144,Adambakkam Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.982504,80.256429,Private Clinic,24,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_145,Thiruvanmiyur North Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.92536,80.292743,Private Clinic,23,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_146,Gandhi Nagar Adyar Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.928547,80.300701,Private Clinic,33,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_147,Saligramam Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.960439,80.202441,Private Clinic,21,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_148,Karapakkam OMR Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.990767,80.326759,Private Clinic,16,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_149,Otteri Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.228644,80.247151,Private Clinic,16,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_150,Kadapakkam Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.163585,80.332206,Private Clinic,11,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_151,Perambur South Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.187229,80.248874,Private Clinic,11,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_152,Vadapalani Temple Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.974229,80.214291,Private Clinic,24,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_153,Park Town Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.212378,80.281754,Private Clinic,26,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_154,Mathur MMDA Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.138467,80.331099,Private Clinic,29,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_155,Ayanavaram East Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.21341,80.212774,Private Clinic,26,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_156,Nandambakkam Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.92584,80.284668,Private Clinic,21,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_157,Madhavaram Sector 14 Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.219185,80.301916,Private Clinic,29,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_158,Kodambakkam North Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.997044,80.186658,Private Clinic,28,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_159,Ellaiamman Koil Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.105178,80.321959,Private Clinic,18,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_160,Mogappair East Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.10303,80.201315,Private Clinic,24,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_161,Madhavaram Sector 14 Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.231158,80.294616,Private Clinic,11,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_162,Villivakkam South Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.121207,80.19346,Private Clinic,17,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_163,West Mambalam Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.983249,80.21573,Private Clinic,25,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_164,Aminjikarai Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.128369,80.175197,Private Clinic,31,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_165,Kathirvedu Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.20911,80.32783,Private Clinic,32,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_166,Muthialpet Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.21731,80.246696,Private Clinic,22,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_167,Ennore Port Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.064349,80.331454,Private Clinic,14,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_168,Pondy Bazaar Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.026561,80.203853,Private Clinic,11,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_169,Vadapalani Central Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.049711,80.187381,Private Clinic,18,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_170,Thoraipakkam South Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.007722,80.318491,Private Clinic,34,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_171,Semmancheri Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.009611,80.328111,Private Clinic,30,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_172,Pondy Bazaar Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,13.019668,80.207126,Private Clinic,25,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_CHE_173,Nanganallur North Medicare & Nursing Home,Chennai,chennai,Tamil Nadu,12.916636,80.226976,Private Clinic,18,5,Private,SYNTHETIC DEVELOPMENT DATA,2024

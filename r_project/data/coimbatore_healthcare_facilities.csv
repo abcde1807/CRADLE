@@ -1,0 +1,90 @@
+Facility_ID,Facility_Name,City,City_Key,State,Latitude,Longitude,Facility_Type,Beds,Doctors,Ownership,Data_Provenance,Data_Year
+FAC_COI_001,Coimbatore Medical College Hospital (CMCH),Coimbatore,coimbatore,Tamil Nadu,11.0025,76.9675,General Hospital,1050,130,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_COI_002,"ESI Medical College Hospital, Singanallur",Coimbatore,coimbatore,Tamil Nadu,11.008,77.018,Government Hospital,500,65,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_COI_003,"PSG Hospitals, Peelamedu",Coimbatore,coimbatore,Tamil Nadu,11.025,77.005,Multi-Speciality Hospital,650,90,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_COI_004,"Ganga Hospital, Ram Nagar",Coimbatore,coimbatore,Tamil Nadu,11.018,76.958,Multi-Speciality Hospital,450,70,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_COI_005,Kovai Medical Center and Hospital (KMCH),Coimbatore,coimbatore,Tamil Nadu,11.055,77.042,Multi-Speciality Hospital,800,110,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_COI_006,"Sri Ramakrishna Hospital, Awarampalayam",Coimbatore,coimbatore,Tamil Nadu,11.022,76.985,Multi-Speciality Hospital,550,75,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_COI_007,G. Kuppuswamy Naidu Memorial Hospital (GKNM),Coimbatore,coimbatore,Tamil Nadu,11.012,76.98,Multi-Speciality Hospital,400,60,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_COI_008,"Government District Headquarter Hospital, Pollachi Rd",Coimbatore,coimbatore,Tamil Nadu,10.985,76.955,Government Hospital,250,35,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_COI_009,Sivananda Colony Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.053049,76.892384,CHC,30,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_010,Valankulam Lake Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.961203,76.961864,CHC,30,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_011,Ondipudur Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.047627,77.029261,CHC,25,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_012,Sowripalayam Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.011148,77.042929,CHC,47,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_013,HUDCO Colony Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.101667,76.912891,CHC,42,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_014,Sowripalayam Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.012223,77.02455,CHC,25,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_015,Kovaipudur Phase I Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.959974,76.913156,CHC,52,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_016,Ondipudur Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.045862,77.02569,CHC,54,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_017,Ganapathy East Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.088051,76.867427,CHC,31,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_018,CMCH Hospital Area Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.933235,76.973161,CHC,49,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_019,Kurichi South Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.951231,76.87893,CHC,43,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_020,Sundarapuram Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.979242,76.89345,CHC,44,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_021,Awarampalayam Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.959995,77.025605,CHC,30,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_022,Vadavalli West Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.083795,76.97676,CHC,51,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_023,Edayarpalayam Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.09388,76.995648,CHC,37,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_024,Telungupalayam Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.063168,76.97126,CHC,28,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_025,Vadavalli West Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.083176,76.979793,CHC,28,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_026,Eachanari Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.977798,76.87989,CHC,47,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_027,Kallimadai Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.031846,77.006351,CHC,32,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_028,Valankulam Lake Community Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.95378,76.976797,CHC,33,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_029,Mullai Nagar Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.098584,76.995449,UPHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_030,Gandhi Park Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.098746,76.982769,UPHC,13,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_031,RS Puram West Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.100153,76.976544,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_032,Vadavalli East Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.077122,76.986,UPHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_033,Perur Chettipalayam Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.992037,76.885271,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_034,SITRA Enclave Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.031137,77.04268,UPHC,8,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_035,Saibaba Colony North Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.098488,77.00764,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_036,HUDCO Colony Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.096536,76.913295,UPHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_037,Race Course North Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.931782,76.979093,UPHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_038,PSG Tech Enclave Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.009475,77.043976,UPHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_039,Kuniyamuthur South Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.984183,76.894645,UPHC,12,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_040,Urumandampalayam Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.052923,76.879845,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_041,Siddhapudur Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.942469,76.956347,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_042,Karumbukadai Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.983442,76.872764,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_043,Awarampalayam Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.954375,77.025178,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_044,Vellakinar Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.066405,76.881328,UPHC,15,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_045,Sukrawarpet Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.074226,77.00265,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_046,Siddhapudur Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.937078,76.952078,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_047,Peelamedu Pudur Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.068514,76.911488,UPHC,14,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_048,Sundarapuram Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.987208,76.891644,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_049,Flower Market Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.104299,76.961143,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_050,Civil Aerodrome Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.988404,77.017749,UPHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_051,Papanaickenpalayam Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.927586,76.954204,UPHC,15,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_052,Thondamuthur Road Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.087017,76.961803,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_053,Singanallur North Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.023451,77.037952,UPHC,15,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_054,Singanallur South Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.042288,77.041047,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_055,Koundampalayam West Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.080115,76.944123,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_056,Gandhipuram Central Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.032256,76.875271,UPHC,13,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_057,VOC Park Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.928657,76.995335,UPHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_058,Trichy Road Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.037941,77.068044,UPHC,14,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_059,Kovaipudur Phase II Urban Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.978239,76.92446,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_060,Vilankurichi Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.05339,76.862491,PHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_061,Kuniyamuthur North Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.965244,76.934756,PHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_062,Saibaba Colony South Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.079842,76.970173,PHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_063,Race Course South Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.956379,76.964344,PHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_064,Kuniyamuthur South Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.991638,76.895076,PHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_065,Ram Nagar Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.049199,76.891747,PHC,9,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_066,Vadavalli East Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.084468,76.992121,PHC,12,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_067,Chinnavedampatti Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.063603,76.878137,PHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_068,Eachanari Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.976668,76.882796,PHC,9,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_069,Sukrawarpet North Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,10.953329,76.96362,PHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_070,Vadavalli East Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.072693,76.991216,PHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_071,Singanallur North Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.033442,77.033567,PHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_072,TVS Nagar Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.094999,76.957267,PHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_073,SITRA Enclave Primary Health Centre,Coimbatore,coimbatore,Tamil Nadu,11.032613,77.044832,PHC,13,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_074,Masakalipalayam Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.000451,77.043079,Private Clinic,14,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_075,Big Bazaar Street Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,10.949537,76.948596,Private Clinic,18,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_076,Vadavalli East Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.084444,76.993154,Private Clinic,23,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_077,Neelikonampalayam Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.018349,77.015985,Private Clinic,27,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_078,VOC Park Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,10.932628,76.993117,Private Clinic,29,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_079,Hope College Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.034598,77.031969,Private Clinic,23,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_080,Krishnarayapuram Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.080453,76.880847,Private Clinic,20,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_081,Vellakinar Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.072782,76.871598,Private Clinic,33,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_082,Ramanathapuram Central Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.006001,77.055497,Private Clinic,27,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_083,Civil Aerodrome Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,10.985859,77.020993,Private Clinic,11,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_084,Ganapathy East Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.080295,76.864722,Private Clinic,12,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_085,TVS Nagar Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.101447,76.957044,Private Clinic,21,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_086,Udayampalayam Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.003065,77.01284,Private Clinic,29,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_087,Kurichi North Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,10.96157,76.893817,Private Clinic,23,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_088,SIDCO Industrial Estate Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,10.956565,76.920519,Private Clinic,25,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_COI_089,Saravanampatti IT Park Medicare & Nursing Home,Coimbatore,coimbatore,Tamil Nadu,11.065424,76.880567,Private Clinic,26,3,Private,SYNTHETIC DEVELOPMENT DATA,2024

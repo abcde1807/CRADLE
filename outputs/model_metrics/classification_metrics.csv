@@ -1,0 +1,5 @@
+Class,Precision,Recall,F1-Score,Support
+Low,1.0,1.0,1.0,20.0
+Moderate,1.0,1.0,1.0,132.0
+High,0.995,1.0,0.998,601.0
+Critical,1.0,0.979,0.99,145.0

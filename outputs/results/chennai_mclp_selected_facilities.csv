@@ -1,0 +1,6 @@
+Candidate_ID,Ward_ID,Ward_Name,Zone,Gap_Score,Priority_Category,Composite_ID,City_Key,Latitude,Longitude,Population_Covered,Wards_Reached,High_Gap_Wards_Covered,Facility_Distance_km,Score_Gap_Severity,Score_Pop_Coverage,Score_Fac_Distance,Score_Road_Proximity,Candidate_Score,Coverage_Gain,Recommendation,Rank,AHP_Suitability_Score,Suitability_Tier,MCLP_Rank
+C104,26,Manali Sector 12 (Ward 026),Manali,64.0,High,IND_TN_CHE_026,chennai,13.125898,80.318673,907845,18,16,1.58,64.0,100.0,31.6,100.0,71.9,408530,Recommended,32,78.6,Highly Suitable,1
+C472,73,Perambur North (Ward 073),Thiru-Vi-Ka Nagar,61.5,High,IND_TN_CHE_073,chennai,13.220818,80.271967,809270,25,21,1.21,61.5,100.0,24.2,99.1,69.3,364172,Recommended,78,72.3,Suitable,2
+C2338,166,Kasturba Nagar (Ward 166),Adyar,61.5,High,IND_TN_CHE_166,chennai,12.986883,80.319947,663518,17,13,0.7,61.5,96.6,14.0,100.0,66.4,298583,Recommended,142,71.5,Suitable,3
+C2618,188,Sholinganallur IT Hub (Ward 188),Sholinganallur,52.3,High,IND_TN_CHE_188,chennai,13.058308,80.320091,819519,19,17,0.84,52.3,100.0,16.8,100.0,64.3,368784,Recommended,208,75.3,Highly Suitable,4
+C172,30,Surapet (Ward 030),Madhavaram,59.2,High,IND_TN_CHE_030,chennai,13.188683,80.317071,667655,18,14,1.07,59.2,97.2,21.4,56.2,62.7,300445,Recommended,248,53.5,Moderately Suitable,5

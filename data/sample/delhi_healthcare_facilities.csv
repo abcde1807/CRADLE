@@ -1,0 +1,216 @@
+Facility_ID,Facility_Name,City,City_Key,State,Latitude,Longitude,Facility_Type,Beds,Doctors,Ownership,Data_Provenance,Data_Year
+FAC_DEL_001,All India Institute of Medical Sciences (AIIMS),Delhi (NCT),delhi,Delhi,28.5672,77.21,General Hospital,2400,300,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_002,Safdarjung Hospital & Vardhman Mahavir Medical College,Delhi (NCT),delhi,Delhi,28.5695,77.2075,General Hospital,1800,220,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_003,Dr. Ram Manohar Lohia (RML) Hospital,Delhi (NCT),delhi,Delhi,28.6255,77.2015,General Hospital,1200,160,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_004,Lok Nayak Jai Prakash Narayan (LNJP) Hospital,Delhi (NCT),delhi,Delhi,28.6365,77.2415,General Hospital,2000,240,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_005,"Guru Teg Bahadur (GTB) Hospital, Dilshad Garden",Delhi (NCT),delhi,Delhi,28.683,77.311,General Hospital,1500,180,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_006,"Sir Ganga Ram Hospital, Rajinder Nagar",Delhi (NCT),delhi,Delhi,28.6385,77.1895,Multi-Speciality Hospital,675,120,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_007,"Max Super Speciality Hospital, Saket",Delhi (NCT),delhi,Delhi,28.528,77.212,Multi-Speciality Hospital,550,95,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_008,"Indraprastha Apollo Hospitals, Sarita Vihar",Delhi (NCT),delhi,Delhi,28.541,77.283,Multi-Speciality Hospital,710,110,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_009,"Fortis Escorts Heart Institute, Okhla",Delhi (NCT),delhi,Delhi,28.5605,77.2755,Multi-Speciality Hospital,310,65,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_010,"Rajiv Gandhi Super Speciality Hospital, Tahirpur",Delhi (NCT),delhi,Delhi,28.689,77.319,General Hospital,650,90,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_011,"Deen Dayal Upadhyay Hospital, Hari Nagar",Delhi (NCT),delhi,Delhi,28.627,77.112,Government Hospital,640,85,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_012,"BLK-Max Super Speciality Hospital, Pusa Road",Delhi (NCT),delhi,Delhi,28.644,77.18,Multi-Speciality Hospital,650,100,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_DEL_013,Naraina Industrial Area 1 Community Health Centre,Delhi (NCT),delhi,Delhi,28.641363,77.061527,CHC,53,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_014,Matiala West Community Health Centre,Delhi (NCT),delhi,Delhi,28.78407,77.269091,CHC,29,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_015,Rohini Sector 11 Community Health Centre,Delhi (NCT),delhi,Delhi,28.733266,77.126795,CHC,33,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_016,Red Fort Enclave Community Health Centre,Delhi (NCT),delhi,Delhi,28.529151,77.052095,CHC,43,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_017,Barakhamba Road Community Health Centre,Delhi (NCT),delhi,Delhi,28.588344,77.344562,CHC,44,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_018,Shahdara Old Court Community Health Centre,Delhi (NCT),delhi,Delhi,28.558622,77.343368,CHC,54,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_019,Kashmere Gate ISBT Community Health Centre,Delhi (NCT),delhi,Delhi,28.484312,77.01535,CHC,29,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_020,Shalimar Bagh West Community Health Centre,Delhi (NCT),delhi,Delhi,28.439552,77.180273,CHC,46,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_021,Nawada Metro Community Health Centre,Delhi (NCT),delhi,Delhi,28.740169,77.219345,CHC,37,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_022,Karkardooma Courts Community Health Centre,Delhi (NCT),delhi,Delhi,28.453264,77.342896,CHC,27,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_023,Narela Sector A-6 Community Health Centre,Delhi (NCT),delhi,Delhi,28.439476,77.18258,CHC,45,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_024,Malviya Nagar Corner Community Health Centre,Delhi (NCT),delhi,Delhi,28.672414,77.335685,CHC,32,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_025,Wazirpur Village Community Health Centre,Delhi (NCT),delhi,Delhi,28.480391,77.163661,CHC,34,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_026,Narela Industrial Complex Community Health Centre,Delhi (NCT),delhi,Delhi,28.457664,77.218872,CHC,25,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_027,Hauz Khas Enclave Community Health Centre,Delhi (NCT),delhi,Delhi,28.652027,77.308877,CHC,52,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_028,Mayur Vihar Pocket 1 Community Health Centre,Delhi (NCT),delhi,Delhi,28.534693,77.341496,CHC,32,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_029,Kohat Enclave North Community Health Centre,Delhi (NCT),delhi,Delhi,28.507153,77.083344,CHC,29,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_030,Mangolpuri Block A Community Health Centre,Delhi (NCT),delhi,Delhi,28.773331,77.088993,CHC,43,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_031,South Patel Nagar Community Health Centre,Delhi (NCT),delhi,Delhi,28.552562,77.103024,CHC,38,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_032,Motia Khan Community Health Centre,Delhi (NCT),delhi,Delhi,28.652649,76.992917,CHC,29,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_033,Nand Nagri Block C Community Health Centre,Delhi (NCT),delhi,Delhi,28.469374,77.22041,CHC,32,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_034,Lampur Border Community Health Centre,Delhi (NCT),delhi,Delhi,28.47242,77.204453,CHC,54,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_035,Keshav Puram Block A Community Health Centre,Delhi (NCT),delhi,Delhi,28.461855,77.128607,CHC,42,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_036,Bapa Nagar Community Health Centre,Delhi (NCT),delhi,Delhi,28.609849,76.971642,CHC,37,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_037,Karol Bagh Pusa Rd Community Health Centre,Delhi (NCT),delhi,Delhi,28.68459,77.056252,CHC,35,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_038,Lahori Gate Community Health Centre,Delhi (NCT),delhi,Delhi,28.545234,77.028936,CHC,32,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_039,Kalyanpuri Community Health Centre,Delhi (NCT),delhi,Delhi,28.525618,77.340738,CHC,54,8,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_040,Safdarjung Enclave Community Health Centre,Delhi (NCT),delhi,Delhi,28.721508,77.339987,CHC,45,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_041,Harsh Vihar Community Health Centre,Delhi (NCT),delhi,Delhi,28.500343,77.289353,CHC,37,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_042,Subhash Nagar Community Health Centre,Delhi (NCT),delhi,Delhi,28.738814,77.30254,CHC,36,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_043,Jama Masjid Ward Community Health Centre,Delhi (NCT),delhi,Delhi,28.512082,77.008624,CHC,51,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_044,Pandav Nagar Community Health Centre,Delhi (NCT),delhi,Delhi,28.497597,77.30457,CHC,46,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_045,Pitampura Madhuban Chowk Community Health Centre,Delhi (NCT),delhi,Delhi,28.727148,77.084891,CHC,43,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_046,Mall Road Civil Lines Community Health Centre,Delhi (NCT),delhi,Delhi,28.691829,77.030183,CHC,39,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_047,Mahavir Enclave Community Health Centre,Delhi (NCT),delhi,Delhi,28.755004,77.246497,CHC,25,8,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_048,Nand Nagri Block C Community Health Centre,Delhi (NCT),delhi,Delhi,28.466326,77.224321,CHC,49,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_049,Subhash Nagar Community Health Centre,Delhi (NCT),delhi,Delhi,28.728391,77.301091,CHC,33,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_050,Delhi Gate LNJP Area Community Health Centre,Delhi (NCT),delhi,Delhi,28.599843,77.084954,CHC,43,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_051,Patel Nagar West Community Health Centre,Delhi (NCT),delhi,Delhi,28.573676,76.973596,CHC,34,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_052,New Seemapuri Community Health Centre,Delhi (NCT),delhi,Delhi,28.511178,77.304266,CHC,45,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_053,Barakhamba Road Community Health Centre,Delhi (NCT),delhi,Delhi,28.593935,77.334096,CHC,41,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_054,Shivaji Stadium Enclave Community Health Centre,Delhi (NCT),delhi,Delhi,28.596504,77.33656,CHC,47,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_055,CR Park Community Health Centre,Delhi (NCT),delhi,Delhi,28.731895,77.342963,CHC,52,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_056,Punjabi Bagh West Community Health Centre,Delhi (NCT),delhi,Delhi,28.764502,77.258396,CHC,30,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_057,Narela Industrial Complex Community Health Centre,Delhi (NCT),delhi,Delhi,28.449489,77.215521,CHC,54,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_058,Naraina Industrial Area 1 Community Health Centre,Delhi (NCT),delhi,Delhi,28.634821,77.062965,CHC,52,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_059,Mohan Garden Community Health Centre,Delhi (NCT),delhi,Delhi,28.791555,77.326823,CHC,41,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_060,Tilak Nagar Central Community Health Centre,Delhi (NCT),delhi,Delhi,28.727827,77.288772,CHC,38,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_061,Dev Nagar Karol Bagh Community Health Centre,Delhi (NCT),delhi,Delhi,28.623201,76.990826,CHC,27,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_062,Rohini Sector 24 Community Health Centre,Delhi (NCT),delhi,Delhi,28.790608,77.22048,CHC,41,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_063,Mayur Vihar Phase 1 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.530709,77.334796,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_064,Red Fort Enclave Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.526308,77.044139,UPHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_065,Barakhamba Road Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.596416,77.340584,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_066,Vasant Vihar Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.719097,77.335609,UPHC,14,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_067,Kapashera Border Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.730318,77.208886,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_068,Sadar Bazar Qutab Rd Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.559358,77.099262,UPHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_069,Nand Nagri Block A Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.445426,77.285714,UPHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_070,Tahirpur Leprosy Mission Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.442222,77.290201,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_071,Karol Bagh Ajmal Khan Rd Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.562999,76.995201,UPHC,9,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_072,Ashok Vihar Phase 1 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.459633,77.067455,UPHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_073,Nawada Metro Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.73453,77.227756,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_074,Gujranwala Town Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.629917,77.116845,UPHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_075,Keshav Puram Block A Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.458698,77.125079,UPHC,11,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_076,Safdarjung Development Area Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.684414,77.33308,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_077,Rajouri Garden Market Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.848981,77.220597,UPHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_078,Bawana Village Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.488314,77.140635,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_079,Mandi House Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.668387,77.34804,UPHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_080,Ajmeri Gate Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.549738,77.099945,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_081,Kohat Enclave North Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.502388,77.083909,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_082,Janakpuri Block A Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.838299,77.336803,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_083,Karol Bagh Ajmal Khan Rd Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.563033,77.002001,UPHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_084,Dichaon Kalan Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.793494,77.172209,UPHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_085,Model Town 2 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.691069,77.01417,UPHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_086,Patparganj Industrial Area Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.547333,77.344831,UPHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_087,Vijay Nagar Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.692813,77.006996,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_088,Trilokpuri Block 15 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.553211,77.337171,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_089,Mahavir Enclave Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.749072,77.256254,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_090,Vasant Kunj Sector A Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.749585,77.309239,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_091,Roshanpura Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.785003,77.24927,UPHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_092,Aram Bagh Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.571738,77.040874,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_093,Bawana Village Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.487469,77.140206,UPHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_094,Punjabi Bagh West Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.754691,77.261478,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_095,Kalyanpuri Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.517964,77.338979,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_096,Patel Nagar East Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.643847,77.018766,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_097,Jahangirpuri Block EE Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.756827,77.006071,UPHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_098,Ashok Vihar Phase 3 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.503054,77.113359,UPHC,14,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_099,Bakhtawarpur Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.426657,77.172136,UPHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_100,Jafrabad Main Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.422395,77.343231,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_101,Mori Gate Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.498155,76.973878,UPHC,14,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_102,Shanti Nagar Tri Nagar Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.448735,77.130285,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_103,Andrews Ganj Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.648639,77.344901,UPHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_104,Seelampur Market Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.480466,77.281123,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_105,Ajmeri Gate Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.554459,77.095623,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_106,Rohini Sector 8 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.720643,77.137938,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_107,Tilak Nagar Central Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.724958,77.290858,UPHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_108,GTB Nagar Metro Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.722203,77.061486,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_109,Pushp Vihar Sector 4 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.701264,77.319939,UPHC,11,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_110,Yamuna Vihar Block C Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.438118,77.340601,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_111,Pushp Vihar Sector 1 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.728497,77.334716,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_112,Green Park Main Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.708913,77.345647,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_113,Lahori Gate Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.550707,77.028689,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_114,Ashok Vihar Phase 1 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.468046,77.07311,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_115,Sadh Nagar Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.81941,77.224708,UPHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_116,Lajpat Nagar 2 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.62674,77.347353,UPHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_117,Green Park Main Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.709648,77.33768,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_118,Jhandewalan Temple Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.708558,77.058406,UPHC,14,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_119,Dwarka Sector 23 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.73861,77.25577,UPHC,13,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_120,Shalimar Bagh West Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.447389,77.193687,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_121,Dwarka Sector 6 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.757311,77.239617,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_122,Tilak Nagar East Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.794027,77.315869,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_123,Samaypur Badli Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.476594,77.095347,UPHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_124,Babarpur East Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.419196,77.340964,UPHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_125,Tilak Nagar Central Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.727405,77.290029,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_126,Jama Masjid Ward Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.516533,77.017141,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_127,Sadar Bazar Bara Tooti Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.573304,77.05012,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_128,Sagarpur East Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.842572,77.108244,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_129,Rohini Sector 16 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.822733,77.11637,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_130,Pragati Maidan Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.559614,77.338122,UPHC,13,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_131,Azadpur Mandi Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.690167,77.043596,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_132,Lahori Gate Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.53931,77.022128,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_133,Tank Road Market Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.581063,77.073973,UPHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_134,Anand Parbat Industrial Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.646779,76.975621,UPHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_135,Civil Lines Metro Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.693431,77.029436,UPHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_136,Janakpuri Block A Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.837338,77.341075,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_137,Ajmeri Gate Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.550838,77.099927,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_138,Najafgarh Market Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.788024,77.208079,UPHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_139,Mayur Vihar Phase 1 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.536408,77.335338,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_140,Rohini Sector 15 Urban Primary Health Centre,Delhi (NCT),delhi,Delhi,28.751487,77.094962,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_141,Bakhtawarpur Primary Health Centre,Delhi (NCT),delhi,Delhi,28.431624,77.169281,PHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_142,GTB Hospital Enclave Primary Health Centre,Delhi (NCT),delhi,Delhi,28.419799,77.266031,PHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_143,Sunder Nagri Primary Health Centre,Delhi (NCT),delhi,Delhi,28.423982,77.2855,PHC,14,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_144,Janpath Primary Health Centre,Delhi (NCT),delhi,Delhi,28.67729,77.344628,PHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_145,Sagarpur West Primary Health Centre,Delhi (NCT),delhi,Delhi,28.827413,77.200045,PHC,8,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_146,Samaypur Badli Primary Health Centre,Delhi (NCT),delhi,Delhi,28.479346,77.093928,PHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_147,Kashmere Gate ISBT Primary Health Centre,Delhi (NCT),delhi,Delhi,28.479113,77.02368,PHC,8,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_148,Mehrauli Qutub Minar Primary Health Centre,Delhi (NCT),delhi,Delhi,28.721669,77.34367,PHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_149,Dwarka Sector 10 Metro Primary Health Centre,Delhi (NCT),delhi,Delhi,28.763068,77.215393,PHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_150,Paschim Vihar West Primary Health Centre,Delhi (NCT),delhi,Delhi,28.774409,77.342931,PHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_151,Pushp Vihar Sector 1 Primary Health Centre,Delhi (NCT),delhi,Delhi,28.73267,77.343382,PHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_152,Tri Nagar Totaram Bazar Primary Health Centre,Delhi (NCT),delhi,Delhi,28.447489,77.123291,PHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_153,Kohat Enclave North Primary Health Centre,Delhi (NCT),delhi,Delhi,28.499851,77.078682,PHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_154,Vasant Vihar Primary Health Centre,Delhi (NCT),delhi,Delhi,28.710401,77.337227,PHC,15,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_155,Mohan Garden Primary Health Centre,Delhi (NCT),delhi,Delhi,28.790293,77.322556,PHC,13,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_156,Malviya Nagar Corner Primary Health Centre,Delhi (NCT),delhi,Delhi,28.66556,77.335142,PHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_157,Uttam Nagar West Primary Health Centre,Delhi (NCT),delhi,Delhi,28.741372,77.264399,PHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_158,Lawrence Road Industrial Primary Health Centre,Delhi (NCT),delhi,Delhi,28.421284,77.148204,PHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_159,Pushp Vihar Sector 1 Primary Health Centre,Delhi (NCT),delhi,Delhi,28.731214,77.344787,PHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_160,Dwarka Sector 10 Metro Primary Health Centre,Delhi (NCT),delhi,Delhi,28.763924,77.22014,PHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_161,Kashmere Gate ISBT Primary Health Centre,Delhi (NCT),delhi,Delhi,28.471204,77.01113,PHC,11,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_162,Jahangirpuri Block A Primary Health Centre,Delhi (NCT),delhi,Delhi,28.663312,77.057337,PHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_163,Jahangirpuri Block A Primary Health Centre,Delhi (NCT),delhi,Delhi,28.664912,77.052944,PHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_164,Shadipur Metro Primary Health Centre,Delhi (NCT),delhi,Delhi,28.683736,77.071629,PHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_165,Najafgarh Market Primary Health Centre,Delhi (NCT),delhi,Delhi,28.7778,77.212236,PHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_166,Nand Nagri Block C Primary Health Centre,Delhi (NCT),delhi,Delhi,28.466747,77.21208,PHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_167,Janakpuri Block A Primary Health Centre,Delhi (NCT),delhi,Delhi,28.835811,77.340493,PHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_168,Rohini Sector 8 Primary Health Centre,Delhi (NCT),delhi,Delhi,28.714336,77.138144,PHC,8,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_169,Laxmi Nagar Metro Primary Health Centre,Delhi (NCT),delhi,Delhi,28.496088,77.340341,PHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_170,Mangolpuri Industrial Primary Health Centre,Delhi (NCT),delhi,Delhi,28.793067,77.096878,PHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_171,Dilshad Colony Primary Health Centre,Delhi (NCT),delhi,Delhi,28.478304,77.338568,PHC,9,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_172,Andrews Ganj Primary Health Centre,Delhi (NCT),delhi,Delhi,28.645443,77.344243,PHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_173,Chawri Bazar Primary Health Centre,Delhi (NCT),delhi,Delhi,28.467936,77.085508,PHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_174,Naraina Vihar Primary Health Centre,Delhi (NCT),delhi,Delhi,28.588073,77.021487,PHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_175,Defence Colony Flyover Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.585528,77.331608,Private Clinic,31,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_176,Mayur Vihar Phase 2 Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.517306,77.34112,Private Clinic,26,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_177,Keshav Puram Block A Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.461492,77.121046,Private Clinic,25,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_178,Anand Vihar ISBT Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.482693,77.344781,Private Clinic,32,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_179,Tahirpur Leprosy Mission Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.448296,77.28405,Private Clinic,33,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_180,Siraspur Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.443211,77.231161,Private Clinic,26,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_181,Shalimar Bagh North Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.481349,77.139528,Private Clinic,28,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_182,Baljit Nagar Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.630383,76.959907,Private Clinic,17,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_183,Punjabi Bagh West Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.758381,77.265656,Private Clinic,22,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_184,Green Park Extension Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.773088,77.343157,Private Clinic,31,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_185,Jafrabad Main Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.428196,77.343664,Private Clinic,19,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_186,Bankner Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.407887,77.218742,Private Clinic,12,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_187,Harsh Vihar Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.504991,77.289993,Private Clinic,16,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_188,Dwarka Sector 10 Metro Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.768649,77.212709,Private Clinic,24,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_189,Tank Road Market Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.579628,77.076506,Private Clinic,18,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_190,Delhi Gate LNJP Area Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.604615,77.091738,Private Clinic,32,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_191,Malviya Nagar Corner Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.665921,77.33702,Private Clinic,15,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_192,Saraswati Vihar Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.787065,77.083004,Private Clinic,22,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_193,Nand Nagri Block C Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.457057,77.221089,Private Clinic,17,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_194,Hudson Lane Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.698146,77.101571,Private Clinic,15,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_195,Dwarka Sector 12 Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.727208,77.179061,Private Clinic,24,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_196,Malviya Nagar Corner Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.670065,77.33748,Private Clinic,23,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_197,Kingsway Camp Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.714946,77.053901,Private Clinic,10,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_198,Vivek Vihar Phase 1 Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.497413,77.334469,Private Clinic,34,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_199,Shalimar Bagh West Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.430356,77.193964,Private Clinic,19,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_200,Shahbad Dairy Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.469308,77.225484,Private Clinic,27,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_201,Mori Gate Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.497349,76.971384,Private Clinic,24,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_202,Singhu Border Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.434454,77.295441,Private Clinic,21,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_203,Kakrola Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.810469,77.141629,Private Clinic,18,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_204,Janakpuri Block A Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.838378,77.340062,Private Clinic,31,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_205,Rohini Sector 8 Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.717672,77.150066,Private Clinic,15,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_206,Tri Nagar Main Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.548043,77.146204,Private Clinic,20,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_207,Dwarka Sector 10 Metro Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.764552,77.214256,Private Clinic,11,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_208,Holambi Khurd Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.451559,77.254289,Private Clinic,22,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_209,Ashok Vihar Phase 2 Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.480183,77.096057,Private Clinic,28,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_210,Naraina Vihar Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.585716,77.028328,Private Clinic,10,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_211,Yamuna Vihar Block C Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.443829,77.343614,Private Clinic,24,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_212,Red Fort Enclave Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.530313,77.056426,Private Clinic,33,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_213,Defence Colony Flyover Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.588261,77.340789,Private Clinic,18,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_214,Kapashera Border Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.731367,77.213215,Private Clinic,19,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_DEL_215,Mangolpuri Block A Medicare & Nursing Home,Delhi (NCT),delhi,Delhi,28.759665,77.082733,Private Clinic,18,5,Private,SYNTHETIC DEVELOPMENT DATA,2024

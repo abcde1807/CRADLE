@@ -1,0 +1,6 @@
+Metric,Value,Tolerance,Status
+Gap_Score_Correlation_r,1,> 0.999,PASS
+Gap_Score_MAE,0,< 0.1,PASS
+Gap_Score_Max_Diff,0,< 0.5,PASS
+Priority_Category_Concordance_Pct,100,> 99.0%,PASS
+Desert_Detection_Concordance_Pct,100,100.0%,PASS

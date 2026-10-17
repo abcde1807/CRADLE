@@ -1,0 +1,172 @@
+Facility_ID,Facility_Name,City,City_Key,State,Latitude,Longitude,Facility_Type,Beds,Doctors,Ownership,Data_Provenance,Data_Year
+FAC_BEN_001,Victoria Hospital (BMCRI),Bengaluru,bengaluru,Karnataka,12.963,77.574,General Hospital,1150,140,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_002,Bowring and Lady Curzon Hospital,Bengaluru,bengaluru,Karnataka,12.983,77.605,General Hospital,700,85,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_003,"KC General Hospital, Malleshwaram",Bengaluru,bengaluru,Karnataka,12.998,77.57,Government Hospital,450,55,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_004,Jayanagar General Hospital,Bengaluru,bengaluru,Karnataka,12.928,77.585,Government Hospital,350,45,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_005,NIMHANS Neuro-Psychiatric Centre,Bengaluru,bengaluru,Karnataka,12.94,77.595,General Hospital,800,120,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_006,"Manipal Hospital, Old Airport Road",Bengaluru,bengaluru,Karnataka,12.958,77.648,Multi-Speciality Hospital,600,95,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_007,Narayana Institute of Cardiac Sciences,Bengaluru,bengaluru,Karnataka,12.825,77.69,Multi-Speciality Hospital,750,100,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_008,"Aster CMI Hospital, Hebbal",Bengaluru,bengaluru,Karnataka,13.055,77.592,Multi-Speciality Hospital,500,80,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_009,"Apollo Hospital, Bannerghatta Road",Bengaluru,bengaluru,Karnataka,12.895,77.598,Multi-Speciality Hospital,450,75,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_010,"Fortis Hospital, Cunningham Road",Bengaluru,bengaluru,Karnataka,12.989,77.595,Multi-Speciality Hospital,350,60,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_BEN_011,Hennur Road Community Health Centre,Bengaluru,bengaluru,Karnataka,12.992445,77.709072,CHC,27,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_012,BTM Layout 2nd Stage Community Health Centre,Bengaluru,bengaluru,Karnataka,13.022006,77.531386,CHC,26,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_013,Shivanagar Community Health Centre,Bengaluru,bengaluru,Karnataka,13.072473,77.768147,CHC,39,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_014,Yediyur Lake Community Health Centre,Bengaluru,bengaluru,Karnataka,13.084317,77.661866,CHC,52,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_015,Shivajinagar Commercial St Community Health Centre,Bengaluru,bengaluru,Karnataka,13.017004,77.703918,CHC,48,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_016,Hampi Nagar Community Health Centre,Bengaluru,bengaluru,Karnataka,13.036355,77.674127,CHC,46,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_017,Koramangala 3rd Block Community Health Centre,Bengaluru,bengaluru,Karnataka,13.091275,77.456168,CHC,44,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_018,Chamrajpet North Community Health Centre,Bengaluru,bengaluru,Karnataka,13.110967,77.60998,CHC,49,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_019,Gnanabharathi Bangalore Univ Community Health Centre,Bengaluru,bengaluru,Karnataka,12.842057,77.605539,CHC,48,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_020,Marathahalli Bridge Community Health Centre,Bengaluru,bengaluru,Karnataka,12.932303,77.535906,CHC,42,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_021,Gayathri Nagar Community Health Centre,Bengaluru,bengaluru,Karnataka,13.032058,77.632367,CHC,45,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_022,Jakkur Flying Club Community Health Centre,Bengaluru,bengaluru,Karnataka,12.890796,77.687097,CHC,48,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_023,Kengeri Gollahalli Community Health Centre,Bengaluru,bengaluru,Karnataka,12.906113,77.609693,CHC,54,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_024,Kogilu Cross Community Health Centre,Bengaluru,bengaluru,Karnataka,12.914249,77.670362,CHC,42,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_025,Cooke Town Community Health Centre,Bengaluru,bengaluru,Karnataka,12.936101,77.716578,CHC,39,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_026,Karihobanahalli Community Health Centre,Bengaluru,bengaluru,Karnataka,12.973868,77.507187,CHC,42,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_027,Bellandur ORR Community Health Centre,Bengaluru,bengaluru,Karnataka,12.909538,77.477944,CHC,51,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_028,Basaveshwaranagar Community Health Centre,Bengaluru,bengaluru,Karnataka,13.052161,77.658949,CHC,38,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_029,Jalahalli West Community Health Centre,Bengaluru,bengaluru,Karnataka,12.983208,77.4554,CHC,42,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_030,Tavarekere Community Health Centre,Bengaluru,bengaluru,Karnataka,13.03832,77.518384,CHC,37,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_031,Konanakunte Cross Community Health Centre,Bengaluru,bengaluru,Karnataka,13.02472,77.516401,CHC,30,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_032,HSR Layout Sector 3 Community Health Centre,Bengaluru,bengaluru,Karnataka,13.072585,77.467139,CHC,37,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_033,Basavanagudi Gandhi Bazaar Community Health Centre,Bengaluru,bengaluru,Karnataka,13.073417,77.583691,CHC,25,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_034,Mahadevapura Ring Rd Community Health Centre,Bengaluru,bengaluru,Karnataka,12.914289,77.499091,CHC,49,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_035,Subramanya Nagar Community Health Centre,Bengaluru,bengaluru,Karnataka,13.080974,77.66048,CHC,34,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_036,Domlur Community Health Centre,Bengaluru,bengaluru,Karnataka,12.961942,77.72865,CHC,26,8,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_037,Kengeri Satellite Town Community Health Centre,Bengaluru,bengaluru,Karnataka,12.834577,77.549709,CHC,28,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_038,Yediyur Lake Community Health Centre,Bengaluru,bengaluru,Karnataka,13.095217,77.661398,CHC,35,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_039,Chokkasandra Community Health Centre,Bengaluru,bengaluru,Karnataka,12.978218,77.534011,CHC,35,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_040,Jogupalya Community Health Centre,Bengaluru,bengaluru,Karnataka,12.971618,77.711099,CHC,38,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_041,Sidedahalli Community Health Centre,Bengaluru,bengaluru,Karnataka,12.97974,77.476172,CHC,39,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_042,KR Puram Market Community Health Centre,Bengaluru,bengaluru,Karnataka,12.936891,77.52165,CHC,26,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_043,Silk Board Enclave Community Health Centre,Bengaluru,bengaluru,Karnataka,13.049064,77.494772,CHC,36,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_044,Chandra Layout Community Health Centre,Bengaluru,bengaluru,Karnataka,12.832644,77.58109,CHC,34,9,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_045,Prakash Nagar Community Health Centre,Bengaluru,bengaluru,Karnataka,13.064756,77.674618,CHC,46,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_046,Doddabele Community Health Centre,Bengaluru,bengaluru,Karnataka,12.842817,77.600575,CHC,47,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_047,Bellandur Lake Community Health Centre,Bengaluru,bengaluru,Karnataka,12.895678,77.489646,CHC,48,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_048,Channasandra RR Community Health Centre,Bengaluru,bengaluru,Karnataka,12.829003,77.592217,CHC,50,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_049,Magadi Road Community Health Centre,Bengaluru,bengaluru,Karnataka,13.046038,77.674576,CHC,31,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_050,TC Palya Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.882204,77.473857,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_051,Yelahanka Old Town Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.874263,77.687564,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_052,Kasavanahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.893123,77.517757,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_053,Koramangala 7th Block Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.070499,77.473883,UPHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_054,Banashankari 2nd Stage Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.073839,77.608207,UPHC,8,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_055,Soundarya Layout Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.991258,77.478952,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_056,Kacharakanahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.973058,77.724884,UPHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_057,Prakash Nagar Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.066542,77.67131,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_058,Manyata Tech Park Enclave Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.895673,77.707562,UPHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_059,Gangondanahalli RR Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.889066,77.584878,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_060,Kaveripura Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.007189,77.649519,UPHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_061,Kengeri Gollahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.914221,77.61702,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_062,Rajajinagar 1st Block Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.067297,77.677717,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_063,Koramangala 5th Block Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.061133,77.51451,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_064,Doddaballapur Road Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.909882,77.685039,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_065,KR Puram Market Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.931967,77.522918,UPHC,8,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_066,Shivajinagar Commercial St Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.014927,77.710515,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_067,Rajajinagar 1st Block Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.073101,77.686474,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_068,Rajajinagar 6th Block Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.074138,77.699079,UPHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_069,Doddanekkundi Industrial Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.957892,77.525349,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_070,HSR Layout Sector 7 Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.99463,77.505156,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_071,Kumaraswamy Layout Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.109515,77.581638,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_072,Bull Temple Road Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.100039,77.575541,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_073,Kammanahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.995176,77.677243,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_074,Nayandahalli Junction Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.868143,77.628081,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_075,Byrasandra Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.098159,77.643457,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_076,Richard's Town Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.95112,77.683639,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_077,Byatarayanapura Mysore Rd Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.903184,77.619854,UPHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_078,Gangondanahalli Dasarahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.953358,77.478032,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_079,Panathur Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.858472,77.538365,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_080,Koramangala 8th Block Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.065011,77.492214,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_081,Srinagar Bengaluru Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.112924,77.579446,UPHC,12,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_082,Rajajinagar 3rd Block Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.10374,77.691383,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_083,Chandra Layout Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.833396,77.577847,UPHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_084,Nelagadaranahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.925413,77.512603,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_085,Sriram Mandir Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.072747,77.708128,UPHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_086,Jayanagar 7th Block Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.055502,77.597893,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_087,Prashanth Nagar Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.976946,77.465845,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_088,Kengeri Upanagara Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.834831,77.568346,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_089,BTM Layout 1st Stage Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.07303,77.476314,UPHC,11,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_090,Kasavanahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.88604,77.512831,UPHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_091,Banashankari 3rd Stage Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.081529,77.598937,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_092,HSR Layout Sector 3 Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.068855,77.460326,UPHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_093,Sidedahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.979911,77.481529,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_094,Jakkur Aerodrome Ward Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.895802,77.708704,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_095,HMT Layout Dasarahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.968829,77.445517,UPHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_096,Chamrajpet South Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.078599,77.543134,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_097,Cooke Town Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.939499,77.722745,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_098,Madiwala Lake Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.034059,77.472484,UPHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_099,BTM Layout 2nd Stage Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.027473,77.524903,UPHC,13,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_100,RR Nagar BEML Layout Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.83004,77.611834,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_101,Chandra Layout Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.831727,77.574179,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_102,Vyalikaval Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.01796,77.662805,UPHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_103,Hulimavu Gate Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.107178,77.497754,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_104,Bellandur ORR Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.9101,77.480653,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_105,Kogilu Cross Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.91034,77.675159,UPHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_106,Karihobanahalli Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.970542,77.509073,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_107,Soundarya Layout Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.98775,77.480491,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_108,Richard's Town Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.954248,77.682007,UPHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_109,RR Nagar Temple Ward Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.841971,77.624416,UPHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_110,Ravindra Nagar Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.980978,77.512189,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_111,D-Group Layout Urban Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.931931,77.498544,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_112,Yelahanka Old Town Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.875602,77.685751,PHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_113,Bellandur ORR Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.909161,77.481805,PHC,12,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_114,BTM Layout 1st Stage Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.070647,77.484138,PHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_115,Sadashivanagar Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.019692,77.643923,PHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_116,RR Nagar Ideal Homes Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.893936,77.602841,PHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_117,Gottigere Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.032036,77.487267,PHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_118,Nagarbhavi 2nd Stage Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.880024,77.585354,PHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_119,Mallasandra Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.989637,77.532542,PHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_120,Bagalgunte Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.961896,77.453799,PHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_121,Richard's Town Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.955057,77.685185,PHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_122,Abbigere Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.979464,77.522485,PHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_123,Silk Board Enclave Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.050985,77.496846,PHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_124,Hebbal Flyover Enclave Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.890977,77.686744,PHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_125,Yediyur Lake Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.087674,77.648124,PHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_126,Neelasandra Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.99022,77.750391,PHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_127,Basavanagudi Gandhi Bazaar Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.074017,77.582919,PHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_128,Jeevanbheemanagar Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.969141,77.724896,PHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_129,HSR Layout Sector 1 Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.061829,77.534404,PHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_130,Neelasandra Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.996149,77.754192,PHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_131,Banashankari 1st Stage Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.09473,77.567598,PHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_132,Chandra Layout Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.835977,77.584717,PHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_133,Bellary Road Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.865546,77.730861,PHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_134,Hampi Nagar Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.030092,77.683041,PHC,9,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_135,Mahadevapura Ring Rd Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.923304,77.490111,PHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_136,Silk Board Enclave Primary Health Centre,Bengaluru,bengaluru,Karnataka,13.044722,77.496963,PHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_137,Domlur Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.956719,77.731443,PHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_138,MEI Colony Primary Health Centre,Bengaluru,bengaluru,Karnataka,12.978847,77.471755,PHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_139,Banashankari 2nd Stage Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.074236,77.609166,Private Clinic,19,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_140,Singasandra Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.076073,77.502187,Private Clinic,10,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_141,Singasandra Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.073775,77.496973,Private Clinic,21,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_142,Chamrajpet North Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.115774,77.616634,Private Clinic,13,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_143,Nayandahalli Junction Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.8745,77.623575,Private Clinic,19,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_144,Yediyur Lake Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.090857,77.653512,Private Clinic,33,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_145,HSR Layout Sector 6 Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.022419,77.518187,Private Clinic,30,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_146,Kogilu Cross Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.904134,77.671522,Private Clinic,24,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_147,Gangondanahalli RR Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.88593,77.584793,Private Clinic,24,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_148,Channasandra RR Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.832329,77.590682,Private Clinic,23,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_149,Gnanabharathi Bangalore Univ Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.834079,77.602955,Private Clinic,33,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_150,TC Palya Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.886774,77.464751,Private Clinic,21,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_151,Vidyaranyapura NTI Layout Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.857272,77.667859,Private Clinic,16,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_152,HSR Layout Sector 2 Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.077348,77.538544,Private Clinic,16,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_153,HBR Layout 2nd Block Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.991147,77.724748,Private Clinic,11,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_154,Madhavan Park Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.076654,77.618397,Private Clinic,11,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_155,Gangondanahalli Dasarahalli Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.94884,77.482507,Private Clinic,24,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_156,VV Puram Food Street Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.08209,77.624251,Private Clinic,26,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_157,Jeevanbheemanagar Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.97155,77.727019,Private Clinic,29,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_158,Koramangala 8th Block Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.063617,77.483843,Private Clinic,26,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_159,RR Nagar Temple Ward Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.837456,77.630146,Private Clinic,21,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_160,Govindraj Nagar Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.082739,77.647374,Private Clinic,29,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_161,Doddagollarahatti Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.969524,77.447727,Private Clinic,28,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_162,Kammanahalli Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.989608,77.673381,Private Clinic,18,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_163,HSR Layout Sector 7 Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.00371,77.502508,Private Clinic,24,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_164,Govindraj Nagar Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.094712,77.640074,Private Clinic,11,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_165,MEI Colony Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.97943,77.471574,Private Clinic,17,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_166,Kadugodi Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.872811,77.522477,Private Clinic,25,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_167,Peenya Industrial Area 1st Phase Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.986915,77.446732,Private Clinic,31,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_168,Rajajinagar 6th Block Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.074964,77.697519,Private Clinic,32,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_169,Banashankari 1st Stage Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,13.086036,77.570031,Private Clinic,22,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_170,Ulsoor Lake Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.955484,77.737261,Private Clinic,14,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_BEN_171,Hoodi Junction Medicare & Nursing Home,Bengaluru,bengaluru,Karnataka,12.910758,77.50293,Private Clinic,11,4,Private,SYNTHETIC DEVELOPMENT DATA,2024

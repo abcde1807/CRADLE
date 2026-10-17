@@ -1,0 +1,185 @@
+{
+  "model_family": "RandomForestClassifier & GradientBoostingRegressor",
+  "evaluated_samples": 898,
+  "classification": {
+    "accuracy": 0.9967,
+    "weighted_precision": 0.9967,
+    "weighted_recall": 0.9967,
+    "weighted_f1": 0.9966,
+    "classes": [
+      "Low",
+      "Moderate",
+      "High",
+      "Critical"
+    ],
+    "confusion_matrix": [
+      [
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        132,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        601,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        142
+      ]
+    ],
+    "per_class": [
+      {
+        "Class": "Low",
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1-Score": 1.0,
+        "Support": 20.0
+      },
+      {
+        "Class": "Moderate",
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1-Score": 1.0,
+        "Support": 132.0
+      },
+      {
+        "Class": "High",
+        "Precision": 0.995,
+        "Recall": 1.0,
+        "F1-Score": 0.998,
+        "Support": 601.0
+      },
+      {
+        "Class": "Critical",
+        "Precision": 1.0,
+        "Recall": 0.979,
+        "F1-Score": 0.99,
+        "Support": 145.0
+      }
+    ]
+  },
+  "regression": {
+    "rmse": 0.694,
+    "mae": 0.536,
+    "r2_score": 0.997
+  },
+  "spatial_loco_cross_validation": {
+    "mean_accuracy": 0.8507,
+    "mean_f1": 0.8366,
+    "folds": [
+      {
+        "fold": 1,
+        "test_city": "bengaluru",
+        "train_samples": 700,
+        "test_samples": 198,
+        "accuracy": 0.8283,
+        "precision": 0.8556,
+        "recall": 0.8283,
+        "f1_score": 0.8009
+      },
+      {
+        "fold": 2,
+        "test_city": "chennai",
+        "train_samples": 698,
+        "test_samples": 200,
+        "accuracy": 0.85,
+        "precision": 0.8703,
+        "recall": 0.85,
+        "f1_score": 0.8543
+      },
+      {
+        "fold": 3,
+        "test_city": "coimbatore",
+        "train_samples": 798,
+        "test_samples": 100,
+        "accuracy": 0.81,
+        "precision": 0.841,
+        "recall": 0.81,
+        "f1_score": 0.7685
+      },
+      {
+        "fold": 4,
+        "test_city": "delhi",
+        "train_samples": 648,
+        "test_samples": 250,
+        "accuracy": 0.872,
+        "precision": 0.8932,
+        "recall": 0.872,
+        "f1_score": 0.8743
+      },
+      {
+        "fold": 5,
+        "test_city": "hyderabad",
+        "train_samples": 748,
+        "test_samples": 150,
+        "accuracy": 0.8933,
+        "precision": 0.8991,
+        "recall": 0.8933,
+        "f1_score": 0.8852
+      }
+    ]
+  },
+  "feature_importances": [
+    {
+      "Feature": "Beds_per_1000",
+      "Classifier_Importance": 0.3008420605284985,
+      "Regressor_Importance": 0.806458480575536
+    },
+    {
+      "Feature": "Nearest_Hospital_Distance",
+      "Classifier_Importance": 0.16696654285762483,
+      "Regressor_Importance": 0.06663529773782946
+    },
+    {
+      "Feature": "Population_Density",
+      "Classifier_Importance": 0.1585368056542795,
+      "Regressor_Importance": 0.0764923430938322
+    },
+    {
+      "Feature": "Nearest_Facility_Distance",
+      "Classifier_Importance": 0.11267206172105679,
+      "Regressor_Importance": 0.0278934189121406
+    },
+    {
+      "Feature": "Healthcare_Facilities",
+      "Classifier_Importance": 0.08171061951539621,
+      "Regressor_Importance": 0.006870408021310512
+    },
+    {
+      "Feature": "Elderly",
+      "Classifier_Importance": 0.040023593705604724,
+      "Regressor_Importance": 0.0033182162274306578
+    },
+    {
+      "Feature": "Households",
+      "Classifier_Importance": 0.038748313621380245,
+      "Regressor_Importance": 0.0035057504364880295
+    },
+    {
+      "Feature": "Children",
+      "Classifier_Importance": 0.03758908511016772,
+      "Regressor_Importance": 0.0018193236412130335
+    },
+    {
+      "Feature": "Population",
+      "Classifier_Importance": 0.03343564550802118,
+      "Regressor_Importance": 0.004037603498905045
+    },
+    {
+      "Feature": "Vuln_Ratio",
+      "Classifier_Importance": 0.029475271777970474,
+      "Regressor_Importance": 0.002969157855314343
+    }
+  ]
+}

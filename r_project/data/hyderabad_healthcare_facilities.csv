@@ -1,0 +1,133 @@
+Facility_ID,Facility_Name,City,City_Key,State,Latitude,Longitude,Facility_Type,Beds,Doctors,Ownership,Data_Provenance,Data_Year
+FAC_HYD_001,"Osmania General Hospital, Afzal Gunj",Hyderabad,hyderabad,Telangana,17.378,78.475,General Hospital,1168,145,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_002,"Gandhi Hospital, Musheerabad",Hyderabad,hyderabad,Telangana,17.424,78.502,General Hospital,1000,130,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_003,"Nizam's Institute of Medical Sciences (NIMS), Punjagutta",Hyderabad,hyderabad,Telangana,17.422,78.452,General Hospital,900,115,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_004,"Government Area Hospital, King Koti",Hyderabad,hyderabad,Telangana,17.391,78.485,Government Hospital,350,45,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_005,"Government Area Hospital, Malakpet",Hyderabad,hyderabad,Telangana,17.372,78.505,Government Hospital,250,35,Public,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_006,"Apollo Hospitals, Jubilee Hills",Hyderabad,hyderabad,Telangana,17.415,78.412,Multi-Speciality Hospital,550,90,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_007,"Yashoda Hospital, Secunderabad",Hyderabad,hyderabad,Telangana,17.442,78.501,Multi-Speciality Hospital,450,75,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_008,"CARE Hospitals, Banjara Hills",Hyderabad,hyderabad,Telangana,17.418,78.448,Multi-Speciality Hospital,435,70,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_009,"KIMS Hospitals, Secunderabad",Hyderabad,hyderabad,Telangana,17.438,78.49,Multi-Speciality Hospital,500,80,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_010,"AIG Hospitals, Gachibowli",Hyderabad,hyderabad,Telangana,17.441,78.362,Multi-Speciality Hospital,800,110,Private,SYNTHETIC DEVELOPMENT DATA (Landmark Calibrated),2024
+FAC_HYD_011,Afzal Gunj Community Health Centre,Hyderabad,hyderabad,Telangana,17.369452,78.635218,CHC,42,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_012,Fathenagar Community Health Centre,Hyderabad,hyderabad,Telangana,17.276778,78.404964,CHC,27,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_013,Jubilee Hills Road No 36 Community Health Centre,Hyderabad,hyderabad,Telangana,17.449784,78.520105,CHC,45,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_014,Jeedimetla Phase 3 Community Health Centre,Hyderabad,hyderabad,Telangana,17.273882,78.478205,CHC,31,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_015,Chowmahalla Palace Community Health Centre,Hyderabad,hyderabad,Telangana,17.363299,78.628501,CHC,42,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_016,Balkampet Community Health Centre,Hyderabad,hyderabad,Telangana,17.462497,78.50832,CHC,41,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_017,Karmanghat Temple Community Health Centre,Hyderabad,hyderabad,Telangana,17.288478,78.501933,CHC,31,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_018,Paradise Circle Community Health Centre,Hyderabad,hyderabad,Telangana,17.446524,78.418682,CHC,53,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_019,Bharat Nagar Community Health Centre,Hyderabad,hyderabad,Telangana,17.256811,78.422567,CHC,50,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_020,Chowmahalla Palace Community Health Centre,Hyderabad,hyderabad,Telangana,17.374949,78.632541,CHC,46,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_021,Chanchalguda Community Health Centre,Hyderabad,hyderabad,Telangana,17.385909,78.627146,CHC,54,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_022,Jangammet Community Health Centre,Hyderabad,hyderabad,Telangana,17.407465,78.622421,CHC,33,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_023,Madhava Reddy Colony Community Health Centre,Hyderabad,hyderabad,Telangana,17.351835,78.361172,CHC,51,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_024,Hitec City Cyber Towers Community Health Centre,Hyderabad,hyderabad,Telangana,17.420397,78.278213,CHC,49,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_025,Nizampet Village Community Health Centre,Hyderabad,hyderabad,Telangana,17.279641,78.413054,CHC,29,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_026,Balkampet Community Health Centre,Hyderabad,hyderabad,Telangana,17.466144,78.501845,CHC,29,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_027,Kundanbagh Community Health Centre,Hyderabad,hyderabad,Telangana,17.500047,78.585868,CHC,43,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_028,Kundanbagh Community Health Centre,Hyderabad,hyderabad,Telangana,17.50324,78.589949,CHC,37,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_029,Ramanthapur TV Studio Community Health Centre,Hyderabad,hyderabad,Telangana,17.28123,78.505441,CHC,51,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_030,Jangammet Community Health Centre,Hyderabad,hyderabad,Telangana,17.408963,78.634287,CHC,34,8,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_031,Ghansi Bazaar Community Health Centre,Hyderabad,hyderabad,Telangana,17.389845,78.587072,CHC,34,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_032,Prakash Nagar Begumpet Community Health Centre,Hyderabad,hyderabad,Telangana,17.488406,78.516487,CHC,38,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_033,Prakash Nagar Begumpet Community Health Centre,Hyderabad,hyderabad,Telangana,17.489825,78.508991,CHC,32,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_034,BHEL Township Community Health Centre,Hyderabad,hyderabad,Telangana,17.362962,78.311052,CHC,43,6,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_035,Bolarum Bazaar Community Health Centre,Hyderabad,hyderabad,Telangana,17.478776,78.390929,CHC,29,9,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_036,Habsiguda Metro Community Health Centre,Hyderabad,hyderabad,Telangana,17.288225,78.567748,CHC,51,5,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_037,Badangpet Community Health Centre,Hyderabad,hyderabad,Telangana,17.256728,78.550501,CHC,50,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_038,Barkas Community Health Centre,Hyderabad,hyderabad,Telangana,17.408699,78.631886,CHC,53,8,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_039,Hastinapuram Community Health Centre,Hyderabad,hyderabad,Telangana,17.257754,78.519935,CHC,43,7,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_040,Banjara Hills Road No 1 Community Health Centre,Hyderabad,hyderabad,Telangana,17.471169,78.566808,CHC,28,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_041,Prakash Nagar Begumpet Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.491757,78.518884,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_042,Miyapur Allwyn Colony Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.343444,78.356742,UPHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_043,Manikonda Jagir Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.39494,78.400996,UPHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_044,Miyapur Allwyn Colony Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.342463,78.350485,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_045,Charminar Historic Core Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.402767,78.611779,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_046,Alwal Hills Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.46876,78.44162,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_047,Banjara Hills Road No 12 Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.465719,78.545236,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_048,Saroornagar Lake Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.298032,78.547539,UPHC,13,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_049,Saroornagar Lake Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.299985,78.538425,UPHC,12,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_050,LB Nagar Ring Road Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.321974,78.524607,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_051,Bolarum Bazaar Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.479397,78.397542,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_052,Alwal Hills Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.466041,78.438759,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_053,Alwal Hills Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.468463,78.438572,UPHC,11,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_054,Nampally Station Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.466776,78.561657,UPHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_055,Badangpet Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.266429,78.542028,UPHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_056,Manikonda Jagir Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.395317,78.40715,UPHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_057,Laad Bazaar Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.429301,78.628549,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_058,IDPL Colony Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.277965,78.409604,UPHC,11,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_059,Nanakramguda SEZ Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.383122,78.339556,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_060,Shapur Nagar Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.287853,78.453995,UPHC,8,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_061,Mansoorabad Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.336567,78.588276,UPHC,14,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_062,Moghalpura Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.353355,78.628435,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_063,Erragadda Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.302138,78.49303,UPHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_064,Kothapet Fruit Market Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.261605,78.538284,UPHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_065,Uppuguda Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.40698,78.571917,UPHC,8,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_066,Ramanthapur TV Studio Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.285213,78.500412,UPHC,12,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_067,Red Hills Hyderabad Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.44936,78.527794,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_068,Shilparamam Arts Village Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.43345,78.355089,UPHC,15,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_069,SR Nagar Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.499894,78.521495,UPHC,6,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_070,Hitec City Cyber Towers Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.425267,78.278052,UPHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_071,Chanchalguda Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.391226,78.63139,UPHC,8,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_072,Jagathgirigutta Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.303948,78.420832,UPHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_073,Prakash Nagar Begumpet Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.489172,78.512148,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_074,Uppuguda Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.406896,78.564713,UPHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_075,Gulmohar Park Serilingampally Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.396319,78.329536,UPHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_076,Barkas Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.411391,78.634691,UPHC,11,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_077,Erragadda Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.307849,78.496447,UPHC,9,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_078,Neredmet Cross Road Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.480058,78.493675,UPHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_079,Salar Jung Museum Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.428124,78.610004,UPHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_080,Gunfoundry Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.465836,78.548514,UPHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_081,Kondapur RTO Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.379673,78.385925,UPHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_082,Kothapet HUDA Complex Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.262596,78.600978,UPHC,6,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_083,Alwal Hills Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.461963,78.43281,UPHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_084,Himayatnagar Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.542579,78.586307,UPHC,11,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_085,Habsiguda Metro Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.290171,78.566629,UPHC,10,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_086,Jubilee Hills Road No 36 Urban Primary Health Centre,Hyderabad,hyderabad,Telangana,17.447421,78.515575,UPHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_087,Gunrock Enclave Primary Health Centre,Hyderabad,hyderabad,Telangana,17.479594,78.44561,PHC,15,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_088,Lakdikapul Primary Health Centre,Hyderabad,hyderabad,Telangana,17.546404,78.498036,PHC,13,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_089,Begumpet Airport Area Primary Health Centre,Hyderabad,hyderabad,Telangana,17.512068,78.568195,PHC,15,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_090,Moghalpura Primary Health Centre,Hyderabad,hyderabad,Telangana,17.350275,78.634003,PHC,10,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_091,Gangaram Primary Health Centre,Hyderabad,hyderabad,Telangana,17.4059,78.315346,PHC,12,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_092,Allapur Primary Health Centre,Hyderabad,hyderabad,Telangana,17.297609,78.460264,PHC,13,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_093,Hitec City Cyber Towers Primary Health Centre,Hyderabad,hyderabad,Telangana,17.421535,78.278113,PHC,9,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_094,Charminar Historic Core Primary Health Centre,Hyderabad,hyderabad,Telangana,17.400668,78.610925,PHC,10,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_095,Vivekanandanagar Kukatpally Primary Health Centre,Hyderabad,hyderabad,Telangana,17.295983,78.398822,PHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_096,Bolarum Bazaar Primary Health Centre,Hyderabad,hyderabad,Telangana,17.484446,78.394239,PHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_097,Madhapur Mindspace Primary Health Centre,Hyderabad,hyderabad,Telangana,17.382721,78.353821,PHC,7,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_098,KPHB Phase 4 Primary Health Centre,Hyderabad,hyderabad,Telangana,17.264758,78.410774,PHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_099,Hafeezpet Primary Health Centre,Hyderabad,hyderabad,Telangana,17.401655,78.304093,PHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_100,MG Road Secunderabad Primary Health Centre,Hyderabad,hyderabad,Telangana,17.469492,78.406158,PHC,6,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_101,BN Reddy Nagar Primary Health Centre,Hyderabad,hyderabad,Telangana,17.311774,78.538034,PHC,14,2,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_102,Himayatnagar Primary Health Centre,Hyderabad,hyderabad,Telangana,17.532446,78.59166,PHC,11,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_103,Chandrayangutta Primary Health Centre,Hyderabad,hyderabad,Telangana,17.373697,78.634039,PHC,15,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_104,Shah Ali Banda Primary Health Centre,Hyderabad,hyderabad,Telangana,17.385874,78.609247,PHC,7,3,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_105,Jagathgirigutta Primary Health Centre,Hyderabad,hyderabad,Telangana,17.298031,78.42228,PHC,9,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_106,Lakdikapul Primary Health Centre,Hyderabad,hyderabad,Telangana,17.548853,78.498737,PHC,7,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_107,Madannapet Primary Health Centre,Hyderabad,hyderabad,Telangana,17.394835,78.618562,PHC,14,4,Public,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_108,Secunderabad Station Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.475342,78.381145,Private Clinic,13,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_109,Paradise Circle Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.44936,78.422806,Private Clinic,12,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_110,Uppal Ring Road Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.302625,78.577762,Private Clinic,34,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_111,Ghansi Bazaar Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.380767,78.58975,Private Clinic,22,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_112,Anandnagar Khairatabad Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.514429,78.521347,Private Clinic,31,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_113,Jeedimetla Phase 1 Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.321347,78.446382,Private Clinic,22,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_114,Vanasthalipuram Complex Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.292462,78.5281,Private Clinic,33,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_115,Jeedimetla Phase 3 Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.271134,78.468167,Private Clinic,14,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_116,Narayanaguda Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.475013,78.547813,Private Clinic,16,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_117,Serilingampally Town Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.367485,78.357077,Private Clinic,10,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_118,Safilguda Lake Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.505343,78.405063,Private Clinic,11,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_119,Shapur Nagar Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.281198,78.45404,Private Clinic,14,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_120,Chandrayangutta Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.364899,78.624521,Private Clinic,34,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_121,Laad Bazaar Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.427876,78.621985,Private Clinic,27,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_122,Anandnagar Khairatabad Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.521716,78.515948,Private Clinic,26,5,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_123,Saidabad Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.407127,78.636514,Private Clinic,16,7,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_124,Sanjeeva Reddy Nagar Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.495436,78.545367,Private Clinic,15,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_125,Jangammet Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.403415,78.630134,Private Clinic,14,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_126,Banjara Hills Road No 12 Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.458967,78.546705,Private Clinic,17,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_127,Malkajgiri Central Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.499693,78.416834,Private Clinic,12,4,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_128,Laad Bazaar Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.417404,78.625667,Private Clinic,31,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_129,Sanjeeva Reddy Nagar Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.498205,78.550938,Private Clinic,24,3,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_130,Rashtrapati Road Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.488784,78.401595,Private Clinic,34,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_131,Badangpet Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.256435,78.543678,Private Clinic,32,6,Private,SYNTHETIC DEVELOPMENT DATA,2024
+FAC_HYD_132,Motinagar Medicare & Nursing Home,Hyderabad,hyderabad,Telangana,17.260292,78.4688,Private Clinic,34,7,Private,SYNTHETIC DEVELOPMENT DATA,2024

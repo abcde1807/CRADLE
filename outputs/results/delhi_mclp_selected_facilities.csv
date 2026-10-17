@@ -1,0 +1,6 @@
+Candidate_ID,Ward_ID,Ward_Name,Zone,Gap_Score,Priority_Category,Composite_ID,City_Key,Latitude,Longitude,Population_Covered,Wards_Reached,High_Gap_Wards_Covered,Facility_Distance_km,Score_Gap_Severity,Score_Pop_Coverage,Score_Fac_Distance,Score_Road_Proximity,Candidate_Score,Coverage_Gain,Recommendation,Rank,AHP_Suitability_Score,Suitability_Tier,MCLP_Rank
+C889,54,Vikas Puri Block H (Ward 054),West Zone,67.4,High,IND_DL_DEL_054,delhi,28.748871,77.273971,736491,14,11,1.25,67.4,100.0,25.0,100.0,72.0,331421,Recommended,88,76.9,Highly Suitable,1
+C8596,235,Jhilmil Industrial Area (Ward 235),Shahdara South,65.1,High,IND_DL_DEL_235,delhi,28.505807,77.329836,952062,16,13,1.04,65.1,100.0,20.8,100.0,70.2,428428,Recommended,162,76.0,Highly Suitable,2
+C100,12,Defence Colony Main (Ward 012),Central Zone,61.2,High,IND_DL_DEL_012,delhi,28.643745,77.329971,1178728,16,16,1.41,61.2,100.0,28.2,83.4,68.5,530428,Recommended,255,69.0,Suitable,3
+C475,39,Pushp Vihar Sector 4 (Ward 039),South Zone,58.1,High,IND_DL_DEL_039,delhi,28.711452,77.321401,1098784,17,13,1.14,58.1,100.0,22.8,100.0,67.8,494453,Recommended,315,76.4,Highly Suitable,4
+C8641,239,Nirman Vihar (Ward 239),Shahdara South,66.1,High,IND_DL_DEL_239,delhi,28.55608,77.327413,766151,13,12,1.01,66.1,100.0,20.2,17.0,62.2,344768,Recommended,758,32.7,Constrained Site,5
