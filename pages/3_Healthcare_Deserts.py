@@ -1,7 +1,7 @@
 """
 CRADLE Dashboard - Page 3: Healthcare Deserts & Facility Pressure
 Identifies spatial healthcare deserts, evaluates affected vulnerable populations,
-and tracks facility operating strain across Chennai.
+and tracks facility operating strain across metropolitan jurisdictions.
 """
 
 import streamlit as st
@@ -12,26 +12,33 @@ import folium
 from streamlit_folium import st_folium
 
 import config
-from app import load_cached_system_data
+from src.ui_components import (
+    render_page_header_and_city_selector,
+    render_methodology_card,
+    load_cached_system_data,
+    inject_custom_css
+)
 from src.healthcare_desert import HealthcareDesertDetector
 from src.facility_pressure import FacilityPressureAnalyzer
 
 st.set_page_config(page_title="Healthcare Deserts | CRADLE", page_icon="🏜️", layout="wide")
 
-selected_city = st.session_state.get("selected_city", config.DEFAULT_CITY)
-city_cfg = config.get_city_config(selected_city)
-
-st.title(f"🏜️ Healthcare Desert Detection & Facility Pressure: {city_cfg['city_name']}")
-st.caption(f"Pinpoints geographical healthcare deserts in {city_cfg['city_name']} and quantifies operational strain on existing hospitals.")
-
-wards_gdf, facilities_gdf = load_cached_system_data(selected_city)
+# Universal top-corner city switcher and header
+selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
+    page_title=f"Healthcare Desert Detection & Facility Pressure: {city_cfg['city_name'] if 'city_cfg' in locals() else 'Metro'}",
+    page_icon="🏜️",
+    page_subtitle=f"Pinpoints acute geographic service voids and quantifies gravity queueing strain on hospitals.",
+    page_key="deserts"
+)
 
 detector = HealthcareDesertDetector()
 wards_deserts = detector.detect_deserts(wards_gdf)
 desert_stats = detector.summarize_deserts(wards_deserts)
 
 pressure_analyzer = FacilityPressureAnalyzer()
-facilities_pressure = pressure_analyzer.calculate_facility_pressure(facilities_gdf, wards_deserts)
+facilities_pressure = pressure_analyzer.calculate_facility_pressure(
+    facilities_gdf, wards_deserts, crs_proj=city_cfg["crs_proj"]
+)
 pressure_stats = pressure_analyzer.summarize_pressure(facilities_pressure)
 
 # KPI Summary Cards
@@ -46,7 +53,7 @@ st.markdown("---")
 col_map, col_table = st.columns([3, 2])
 
 with col_map:
-    st.subheader("Spatial Healthcare Deserts & Facility Strain Map")
+    st.subheader(f"Spatial Healthcare Deserts & Facility Strain Map ({city_cfg['city_name']})")
     st.markdown("🔴 **Red Polygon:** Healthcare Desert Wards | 🟠 **Markers:** Facilities by Strain Level")
 
     m = folium.Map(location=city_cfg["center"], zoom_start=11, tiles="OpenStreetMap")
@@ -99,7 +106,7 @@ with col_table:
             "Population": st.column_config.NumberColumn(format="%d"),
         },
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 st.markdown("---")
@@ -118,7 +125,7 @@ with col_chart:
         color_discrete_map={"Low": "#16A34A", "Moderate": "#EAB308", "High": "#EA580C", "Critical": "#DC2626"},
         title="Facility Strain Classification Breakdown",
     )
-    st.plotly_chart(fig_pressure, use_container_width=True)
+    st.plotly_chart(fig_pressure, width="stretch")
 
 with col_facs:
     st.subheader("Highest Pressure Healthcare Facilities")
@@ -133,5 +140,26 @@ with col_facs:
             "Pressure_Ratio": st.column_config.NumberColumn(format="%.2fx"),
         },
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
+
+# Methodological Card
+render_methodology_card(
+    module_title="Healthcare Desert Detection & Gravity Strain Model",
+    mathematical_formula=r"\text{Desert}_i = (\text{Gap Score}_i \ge 60) \land \left( \text{Dist}_i^{\text{hosp}} \ge 3.5\text{ km} \lor (\text{Beds}_i \le 1.0 \land \text{Fac}_i \le 1) \right)",
+    conceptual_explanation="""
+    Identifies acute geographic pockets where low resource availability coincides with physical separation from tertiary hospital care. 
+    Facility operating strain is calculated via a modified **Huff Gravity Model**, allocating ward populations to facilities inversely proportional 
+    to squared distance and directly proportional to bed capacity.
+    """,
+    interpretation_points=[
+        "**Desert Wards:** Areas requiring priority consideration for candidate facility siting.",
+        "**Desert Severity Index (0-100):** Weighted multi-criteria severity reflecting distance to emergency hospital (35%), bed deficit (20%), and gap score (45%).",
+        "**Facility Pressure Ratio > 1.5x:** Indicates severe hospital crowding, long wait times, and emergency bed diversion risk.",
+    ],
+    policy_implications=[
+        "Establish new Community Health Centres (CHCs) in central clusters of Healthcare Deserts.",
+        "Expand bed capacities at existing hospitals exhibiting pressure ratios exceeding 2.0x.",
+        "Deploy emergency transit corridors linking desert peripheral wards to secondary tertiary centers.",
+    ]
+)

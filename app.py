@@ -1,7 +1,7 @@
 """
 CRADLE: Critical Resource Allocation, Distribution & Location Engine
 Main Application Portal & Multi-City Executive Dashboard
-Chennai, Coimbatore, Bengaluru, Hyderabad (India)
+Chennai, Coimbatore, Bengaluru, Hyderabad, Delhi (India)
 """
 
 import streamlit as st
@@ -12,11 +12,12 @@ import folium
 from streamlit_folium import st_folium
 
 import config
-from src.data_loader import DataLoader
-from src.preprocessing import PreprocessingPipeline
-from src.gap_analyzer import HealthcareGapAnalyzer
-from src.healthcare_desert import HealthcareDesertDetector
-from src.facility_pressure import FacilityPressureAnalyzer
+from src.ui_components import (
+    render_page_header_and_city_selector,
+    render_methodology_card,
+    load_cached_system_data,
+    inject_custom_css
+)
 
 # Page configuration
 st.set_page_config(
@@ -26,98 +27,17 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Custom CSS for modern academic styling
-st.markdown("""
-<style>
-    .main-header {
-        font-family: 'Segoe UI', sans-serif;
-        font-size: 2.2rem;
-        font-weight: 700;
-        color: #1E3A8A;
-        margin-bottom: 0.2rem;
-    }
-    .sub-header {
-        font-family: 'Segoe UI', sans-serif;
-        font-size: 1.1rem;
-        color: #4B5563;
-        margin-bottom: 1.5rem;
-    }
-    .metric-card {
-        background: #F8FAFC;
-        border-left: 5px solid #3B82F6;
-        padding: 1.2rem;
-        border-radius: 8px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-    }
-    .badge-critical {
-        background-color: #FEE2E2;
-        color: #991B1B;
-        padding: 4px 8px;
-        border-radius: 4px;
-        font-weight: 600;
-    }
-</style>
-""", unsafe_allow_html=True)
-
-
-@st.cache_data(show_spinner="Loading and preparing spatial decision data...")
-def load_cached_system_data(city_key: str = None):
-    """Ensures datasets exist and returns processed wards and facilities for the requested city."""
-    if city_key is None:
-        city_key = st.session_state.get("selected_city", config.DEFAULT_CITY)
-    city_key = city_key.lower().strip()
-
-    paths = config.get_city_data_paths(city_key)
-    wards_file = paths["processed_wards_geojson"]
-    fac_file = paths["processed_fac_geojson"]
-
-    if not wards_file.exists() or not fac_file.exists():
-        # Fallback to single-city legacy path
-        wards_file = config.PROCESSED_DATA_DIR / "processed_wards.geojson"
-        fac_file = config.PROCESSED_DATA_DIR / "processed_facilities.geojson"
-
-    wards_gdf = gpd.read_file(wards_file)
-    facilities_gdf = gpd.read_file(fac_file)
-
-    return wards_gdf, facilities_gdf
-
 
 def main():
-    # Sidebar Multi-City Control
-    with st.sidebar:
-        st.image("https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&q=80")
-        st.title("CRADLE Engine")
-        st.caption("Urban Health Geospatial Decision Support")
-        st.markdown("---")
+    # 1. Top Navbar, Header and Persistent City Controller
+    selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
+        page_title="CRADLE: Urban Healthcare Spatial Decision-Support Engine",
+        page_icon="🏥",
+        page_subtitle=f"Gap-First Resource Allocation, Facility Siting & Optimization Platform | {city_cfg['city_name']}, {city_cfg['state_name']}",
+        page_key="home"
+    )
 
-        active_cities = [k for k, v in config.SUPPORTED_CITIES.items() if v.get("is_active") is True]
-        default_idx = 0
-        if "selected_city" in st.session_state and st.session_state["selected_city"] in active_cities:
-            default_idx = active_cities.index(st.session_state["selected_city"])
-
-        selected_city = st.selectbox(
-            "📍 Select Metropolitan City",
-            options=active_cities,
-            index=default_idx,
-            format_func=lambda k: f"{config.SUPPORTED_CITIES[k]['city_name']} ({config.SUPPORTED_CITIES[k]['state_code']})"
-        )
-        st.session_state["selected_city"] = selected_city
-
-        city_cfg = config.get_city_config(selected_city)
-        st.markdown(f"**Jurisdiction:** {city_cfg['admin_body']}")
-        st.markdown(f"**Spatial Units:** {city_cfg['admin_count']} Wards ({city_cfg['zones_count']} Zones)")
-        st.markdown(f"**Metric Projection:** {city_cfg['crs_proj']}")
-        st.markdown(f"**Methodology:** Gap-First Spatial Allocation")
-
-        st.info(f"💡 **Provenance:** {city_cfg['data_provenance']}")
-
-    city_cfg = config.get_city_config(selected_city)
-    st.markdown('<div class="main-header">CRADLE: Critical Resource Allocation, Distribution & Location Engine</div>', unsafe_allow_html=True)
-    st.markdown(f'<div class="sub-header">Urban Healthcare Spatial Decision-Support System | {city_cfg["city_name"]}, {city_cfg["state_name"]} ({city_cfg["admin_body"]})</div>', unsafe_allow_html=True)
-
-    wards_gdf, facilities_gdf = load_cached_system_data(selected_city)
-
-    # High-level KPI summary
+    # 2. High-Level Municipal Infrastructure KPIs
     total_pop = int(wards_gdf["Population"].sum())
     total_fac = len(facilities_gdf)
     total_beds = int(wards_gdf["Hospital_Beds"].sum())
@@ -129,36 +49,36 @@ def main():
     c1, c2, c3, c4 = st.columns(4)
     with c1:
         st.metric("Total Population", f"{total_pop:,}", help=f"Census and municipal population estimate for {city_cfg['city_name']}")
-        st.metric(f"Total Wards", f"{len(wards_gdf)} Wards", help=f"{city_cfg['zones_count']} Administrative Zones")
+        st.metric("Spatial Units", f"{len(wards_gdf)} Wards", help=f"{city_cfg['zones_count']} Administrative Zones")
     with c2:
-        st.metric("Total Facilities", f"{total_fac}", help="Hospitals, CHCs, UPHCs, PHCs")
-        st.metric("Inpatient Beds", f"{total_beds:,}", help="Public & Private registered beds")
+        st.metric("Healthcare Facilities", f"{total_fac}", help="Hospitals, CHCs, UPHCs, PHCs")
+        st.metric("Registered Beds", f"{total_beds:,}", help="Public & Private registered inpatient beds")
     with c3:
-        st.metric("Beds / 1,000 Pop", f"{city_beds_k}", delta=f"{city_beds_k - 3.0:.2f} vs WHO (3.0)")
-        st.metric("Critical Priority Wards", f"{crit_wards}", delta="Requires Urgent Siting", delta_color="inverse")
+        st.metric("Beds / 1,000 Pop", f"{city_beds_k}", delta=f"{city_beds_k - 3.0:.2f} vs WHO Target (3.0)")
+        st.metric("Critical Gap Wards", f"{crit_wards}", delta="Requires Urgent Siting", delta_color="inverse")
     with c4:
         st.metric("Healthcare Deserts", f"{desert_wards} Wards", delta=f"{desert_wards/len(wards_gdf)*100:.1f}% of City", delta_color="inverse")
         st.metric("Desert Pop Affected", f"{desert_pop:,}", delta="Underserved residents", delta_color="inverse")
 
     st.markdown("---")
 
-    # Workflow & Navigation Tabs
+    # 3. Workflow & System Deliverables Breakdown
     col_left, col_right = st.columns([3, 2])
 
     with col_left:
-        st.subheader("Gap-First Healthcare Planning Workflow")
+        st.subheader("Gap-First Healthcare Planning Architecture")
         st.markdown("""
         Conventional facility planning asks: *"Where is suitable vacant land for a hospital?"*  
-        **CRADLE inverts this paradigm** by identifying where the population is most critically underserved first:
+        **CRADLE inverts this paradigm through a Gap-First Spatial Allocation Framework:**
         """)
 
         st.markdown("""
         ```text
-        1. Healthcare Need  ──► Population pressure & demographic vulnerability
+        1. Healthcare Need  ──► Population pressure & demographic vulnerability (898 Wards)
                 │
         2. Resource Gap     ──► 4-Indicator Gap Score (0-100) per ward
                 │
-        3. Priority Wards   ──► Pinpoint Critical wards & Healthcare Deserts
+        3. Priority Wards   ──► Pinpoint Critical wards & Healthcare Deserts (57.3% Desert Prevalence)
                 │
         4. Candidate Siting ──► 500m spatial grid within priority voids
                 │
@@ -168,7 +88,7 @@ def main():
                 │
         7. Optimization     ──► MCLP integer programming & AIPS robustness
                 │
-        8. Machine Learning ──► Leave-One-City-Out predictive priority model
+        8. Machine Learning ──► Leave-One-City-Out predictive priority model (85.1% LOCO Acc)
         ```
         """)
 
@@ -188,9 +108,10 @@ def main():
         """)
 
     st.markdown("---")
+
+    # 4. Interactive Infrastructure Map
     st.subheader(f"Healthcare Infrastructure Overview Map: {city_cfg['city_name']}")
 
-    # Interactive Folium map of Selected City
     city_center = city_cfg["center"]
     m = folium.Map(location=city_center, zoom_start=11, tiles="OpenStreetMap")
 
@@ -207,6 +128,27 @@ def main():
         ).add_to(m)
 
     st_folium(m, width=None, height=480)
+
+    # 5. Methodological Reference Card
+    render_methodology_card(
+        module_title="Gap-First Spatial Decision-Support Architecture",
+        mathematical_formula=r"\text{Siting Priority} = f(\text{Need}, \text{Gap}, \text{Accessibility}, \text{Spatial Isolation})",
+        conceptual_explanation="""
+        CRADLE prioritizes spatial justice over commercial land availability. By computing continuous 
+        healthcare deficit indicators, identifying acute spatial voids, and solving integer linear programs, 
+        the engine provides public health authorities with defensible, mathematically validated location decisions.
+        """,
+        interpretation_points=[
+            "**Total Beds / 1,000 Pop:** Benchmarked against the World Health Organization (WHO) standard of 3.0 beds per 1,000 residents.",
+            "**Critical Wards:** Administrative areas exhibiting extreme composite gap scores (≥ 70/100) requiring urgent public capital investment.",
+            "**Healthcare Deserts:** Severe spatial voids where residents lack both local bed capacity and reasonable travel proximity to secondary hospitals.",
+        ],
+        policy_implications=[
+            "Direct primary care capital budgets towards designated Healthcare Desert clusters.",
+            "Deploy Urban Primary Health Centres (UPHCs) to relieve patient congestion at secondary and tertiary hospitals.",
+            "Use cross-city comparative benchmarks to establish statewide resource rebalancing policies.",
+        ]
+    )
 
 
 if __name__ == "__main__":

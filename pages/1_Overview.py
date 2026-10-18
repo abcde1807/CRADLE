@@ -12,17 +12,22 @@ import folium
 from streamlit_folium import st_folium
 
 import config
-from app import load_cached_system_data
+from src.ui_components import (
+    render_page_header_and_city_selector,
+    render_methodology_card,
+    load_cached_system_data,
+    inject_custom_css
+)
 
-st.set_page_config(page_title="Overview | CRADLE", page_icon="🗺️", layout="wide")
+st.set_page_config(page_title="Infrastructure Overview | CRADLE", page_icon="🏙️", layout="wide")
 
-selected_city = st.session_state.get("selected_city", config.DEFAULT_CITY)
-city_cfg = config.get_city_config(selected_city)
-
-st.title(f"🏙️ {city_cfg['city_name']} Healthcare Infrastructure Overview")
-st.caption(f"Administrative Authority: {city_cfg['admin_body']} ({city_cfg['state_name']}) | Metric Projection: {city_cfg['crs_proj']}")
-
-wards_gdf, facilities_gdf = load_cached_system_data(selected_city)
+# Universal top-corner city switcher and header
+selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
+    page_title=f"Healthcare Infrastructure Overview: {city_cfg['city_name'] if 'city_cfg' in locals() else 'Metro'}",
+    page_icon="🏙️",
+    page_subtitle=f"Zone-level capacity analysis, geographic distribution, and multi-city benchmarking.",
+    page_key="overview"
+)
 
 tab1, tab2 = st.tabs([f"📍 {city_cfg['city_name']} Detailed Profile", "🌐 Cross-City Comparative Benchmarking"])
 
@@ -99,6 +104,7 @@ with tab1:
             zone_summary[["Zone", "Wards", "Population", "Beds", "Beds_per_1000", "Critical_Wards", "Desert_Wards"]],
             hide_index=True,
             height=320,
+            width="stretch"
         )
 
         fig = px.bar(
@@ -174,3 +180,24 @@ with tab2:
             text="Mean Gap Score"
         )
         st.plotly_chart(fig_gap, width="stretch")
+
+# Methodological Card
+render_methodology_card(
+    module_title="Urban Infrastructure & Cross-City Benchmarking",
+    mathematical_formula=r"\text{Beds per 1,000} = \left(\frac{\text{Total Beds}}{\text{Total Population}}\right) \times 1,000",
+    conceptual_explanation="""
+    Evaluates baseline institutional healthcare capacity normalized across administrative boundaries. 
+    By comparing municipal indicators against national and international benchmarks, authorities can 
+    identify systemic shortfalls prior to fine-grained spatial allocation.
+    """,
+    interpretation_points=[
+        "**WHO Benchmark (3.0 Beds/1000):** International minimum standard for urban hospital bed capacity.",
+        "**National Baseline (1.5 Beds/1000):** Baseline Indian urban average reflecting current public and private distributions.",
+        "**Zone Deficit Breakdown:** Highlights geographical zones where hospital bed clustering leaves peripheral wards vulnerable.",
+    ],
+    policy_implications=[
+        "Establish regional hospital zones in underserved peripheral districts.",
+        "Incentivize private hospital accreditation in wards exhibiting severe sub-1.0 bed density.",
+        "Rebalance municipal capital health subsidies according to zone-level gap severity.",
+    ]
+)

@@ -1,13 +1,3 @@
-"""
-CRADLE Dashboard - Page 7: Optimization & Decision Robustness
-Phase 3 Advanced Decision Science:
-1. Maximal Covering Location Problem (MCLP) Integer Programming Optimizer
-2. Budget Allocation Scenarios
-3. AHP Physical Site Suitability
-4. Cross-Regime Sensitivity Analysis
-5. Adaptive Infrastructure Planning Score (AIPS) Robustness Index
-"""
-
 import streamlit as st
 import geopandas as gpd
 import pandas as pd
@@ -16,7 +6,11 @@ import folium
 from streamlit_folium import st_folium
 
 import config
-from app import load_cached_system_data
+from src.ui_components import (
+    render_page_header_and_city_selector,
+    render_methodology_card,
+    load_cached_system_data,
+)
 from src.candidate_generator import CandidateLocationGenerator
 from src.candidate_ranking import CandidateRanker
 from src.ahp import AHPSuitabilityModel
@@ -26,13 +20,40 @@ from src.aips import AIPSScorer
 
 st.set_page_config(page_title="Optimization & Robustness | CRADLE", page_icon="⚡", layout="wide")
 
-selected_city = st.session_state.get("selected_city", config.DEFAULT_CITY)
-city_cfg = config.get_city_config(selected_city)
+selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
+    page_title=f"Optimization, Budget Scenarios & AIPS Robustness",
+    page_icon="⚡",
+    page_subtitle=f"Integer programming facility allocation, multi-regime budget planning & policy robustness",
+    page_key="optimization",
+)
 
-st.title(f"⚡ Optimization, Budget Scenarios & AIPS Robustness: {city_cfg['city_name']}")
-st.caption(f"Phase 3 Decision Analytics in {city_cfg['city_name']} ({city_cfg['admin_body']}): Solves integer programs for optimal multi-site allocation and evaluates recommendation stability.")
-
-wards_gdf, facilities_gdf = load_cached_system_data(selected_city)
+render_methodology_card(
+    module_title="MCLP, AHP Suitability & AIPS Decision Robustness Methodology",
+    mathematical_formula=r"""
+    \text{MCLP: } \max \sum_{i \in I} w_i y_i \quad \text{s.t.} \quad \sum_{j \in N_i} x_j \ge y_i \; \forall i \in I, \quad \sum_{j \in J} x_j = p, \quad x_j, y_i \in \{0, 1\}
+    \\[8pt]
+    \text{AHP Consistency Ratio: } CR = \frac{CI}{RI} < 0.10, \quad CI = \frac{\lambda_{\max} - n}{n - 1}
+    \\[8pt]
+    \text{AIPS Score: } \text{AIPS}_j = \bar{R}_j \cdot \exp\left(-\gamma \cdot \sigma_j^{\text{cross-regime}}\right) \times 100
+    """,
+    conceptual_explanation="""
+    Phase 3 bridges spatial deficit identification with mathematical optimization and decision robustness:
+    1. **MCLP (Maximal Covering Location Problem):** An integer linear program solved via branch-and-bound in `PuLP`, siting $p$ facilities to maximize total covered demand weight $w_i = \text{Population}_i \times \text{Gap Score}_i$.
+    2. **AHP Physical Suitability:** A distinct multi-criteria matrix evaluating slope, flood vulnerability, road proximity, and land use, rigorously separated from healthcare demand.
+    3. **AIPS (Adaptive Infrastructure Planning Score):** Evaluates whether a candidate remains highly ranked across divergent planning ideologies (population-centric vs gap-centric vs accessibility-centric), penalizing high rank variance $\sigma_j$.
+    """,
+    interpretation_points=[
+        "**MCLP High-Gap Coverage:** Directly prioritizes underserved populations rather than simply placing facilities in crowded, already well-served downtown hubs.",
+        "**AHP Consistency Ratio (CR < 0.10):** Validates that pairwise priority comparisons are mathematically coherent and free of transitive bias.",
+        "**AIPS 'Very Robust' Classification:** Candidate site is immune to political or planning regime shifts and should be placed on fast-track municipal capital budgeting.",
+        "**Budget Scenarios:** Models marginal returns on investment across ₹25 Cr (Conservative UPHCs), ₹50 Cr (Balanced CHCs), and ₹100 Cr (Transformative Hospital) programs."
+    ],
+    policy_implications=[
+        "Prevent misallocation of municipal capital by selecting sites with high AIPS robustness scores that succeed across multi-year master plan horizons.",
+        "Use MCLP portfolio optimization to demonstrate optimal public taxpayer value in state health ministry budget submissions.",
+        "Uphold the Separation Principle: never build a hospital on an unsuitable site simply because local need is high—pair high-need wards with geographically adjacent, structurally sound candidate parcels."
+    ]
+)
 
 
 @st.cache_data(show_spinner="Generating and evaluating candidate network...")
@@ -274,6 +295,6 @@ with tabs[3]:
     st.download_button(
         "📥 Export AIPS Robustness Rankings (CSV)",
         data=aips_csv_data,
-        file_name="CRADLE_AIPS_Robustness_Rankings.csv",
+        file_name=f"CRADLE_{selected_city.title()}_AIPS_Robustness_Rankings.csv",
         mime="text/csv",
     )

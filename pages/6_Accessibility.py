@@ -1,9 +1,3 @@
-"""
-CRADLE Dashboard - Page 6: Road Network & 2SFCA Accessibility
-Phase 2 Advanced Spatial Analytics: Two-Step Floating Catchment Area (2SFCA) accessibility model
-and NetworkX-based travel time isochrones (5, 10, 15 minutes).
-"""
-
 import streamlit as st
 import geopandas as gpd
 import pandas as pd
@@ -12,19 +6,51 @@ import folium
 from streamlit_folium import st_folium
 
 import config
-from app import load_cached_system_data
+from src.ui_components import (
+    render_page_header_and_city_selector,
+    render_methodology_card,
+    load_cached_system_data,
+)
 from src.two_sfca import TwoSFCAAnalyzer
 from src.accessibility import RoadNetworkAccessibility
 
 st.set_page_config(page_title="Accessibility & 2SFCA | CRADLE", page_icon="🚗", layout="wide")
 
-selected_city = st.session_state.get("selected_city", config.DEFAULT_CITY)
-city_cfg = config.get_city_config(selected_city)
+selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
+    page_title=f"Road Network & 2SFCA Spatial Accessibility",
+    page_icon="🚗",
+    page_subtitle=f"Floating catchment supply-demand equilibrium, distance decay kernels & road network isochrones",
+    page_key="accessibility",
+)
 
-st.title(f"🚗 Road Network & 2SFCA Spatial Accessibility: {city_cfg['city_name']}")
-st.caption(f"Advanced Phase 2 Analytics in {city_cfg['city_name']} ({city_cfg['admin_body']}): Beyond Euclidean distance to floating catchment supply-demand ratios.")
-
-wards_gdf, facilities_gdf = load_cached_system_data(selected_city)
+render_methodology_card(
+    module_title="Two-Step Floating Catchment Area (2SFCA) & Isochrone Mechanics",
+    mathematical_formula=r"""
+    \text{Step 1 (Provider Bed-to-Demand Ratio): } R_j = \frac{S_j}{\sum_{k \in \{d_{kj} \le d_0\}} P_k \cdot f(d_{kj})}
+    \\[8pt]
+    \text{Step 2 (Accessible Bed Supply to Ward } i\text{): } A_i = \sum_{j \in \{d_{ij} \le d_0\}} R_j \cdot f(d_{ij})
+    \\[8pt]
+    \text{Decay Kernels: } f(d) = d^{-\beta} \text{ (Gravity)}, \quad f(d) = \exp\left(-\frac{d^2}{\beta^2}\right) \text{ (Gaussian)}, \quad f(d) = 1 \text{ (Binary)}
+    """,
+    conceptual_explanation="""
+    Conventional straight-line distance ignores provider capacity congestion and competing demand from neighboring populations. 
+    The Two-Step Floating Catchment Area (2SFCA) model resolves this by creating two interdependent spatial catchments: 
+    First, it computes the ratio of hospital beds ($S_j$) to the distance-decayed population residing within travel threshold $d_0$. 
+    Second, it aggregates all accessible provider ratios for each ward's centroid. 
+    Isochrones model actual network driving times (5, 10, 15 mins) accounting for urban topological constraints.
+    """,
+    interpretation_points=[
+        "**Score < 20 (Severely Deficient Access):** Population has acute bed scarcity even within driving distance due to massive surrounding population competition.",
+        "**Score 60 - 100 (High / Very High Access):** Population is within reach of adequate, uncrowded bed capacity.",
+        "**Distance Decay (β):** Friction factor capturing how willingness to travel drops with distance (β = 1.5 aligns with empirical urban Indian travel studies).",
+        "**Catchment Threshold (d0):** The maximum radius (e.g. 4.0 km) within which residents feasibly seek primary and secondary healthcare."
+    ],
+    policy_implications=[
+        "Deploy mobile medical units and outreach clinics to wards exhibiting high straight-line proximity but severe 2SFCA congestion deficits.",
+        "Use isochrone contours to establish emergency trauma response centers guaranteeing sub-15-minute ambulance access.",
+        "Avoid adding bed capacity to existing mega-hospitals that already experience diminishing returns from localized gridlock."
+    ]
+)
 
 # 2SFCA Controls in Sidebar
 with st.sidebar:
@@ -84,16 +110,14 @@ with col_map:
 
     # Road Network Isochrones
     road_net = RoadNetworkAccessibility()
-    zone_dict = {z["zone_name"]: z for z in config.GCC_ZONES}
-    selected_z = zone_dict.get(selected_node, config.GCC_ZONES[0])
 
     # Find lat/lon for zone
     zone_wards = wards_gdf[wards_gdf["Zone"] == selected_node]
     if len(zone_wards) > 0:
-        clat = zone_wards.geometry.centroid.y.mean()
-        clon = zone_wards.geometry.centroid.x.mean()
+        clat = float(zone_wards.geometry.centroid.y.mean())
+        clon = float(zone_wards.geometry.centroid.x.mean())
     else:
-        clat, clon = config.CHENNAI_CENTER
+        clat, clon = city_cfg["center"]
 
     isochrones_gdf = road_net.generate_isochrones(clat, clon, time_thresholds_min=[5, 10, 15])
     iso_colors = {5: "#22C55E", 10: "#EAB308", 15: "#3B82F6"}
@@ -160,7 +184,7 @@ st.markdown("Illustrates why straight-line distance misjudges accessibility due 
 sample_wards_comp = wards_2sfca.head(10).copy()
 sample_wards_comp["Straight_Line_km"] = sample_wards_comp["Nearest_Hospital_Distance"]
 sample_wards_comp["Est_Drive_Time_Min"] = [
-    road_net.compute_travel_time(row["Centroid_Lat"], row["Centroid_Lon"], config.CHENNAI_CENTER[0], config.CHENNAI_CENTER[1])
+    road_net.compute_travel_time(row["Centroid_Lat"], row["Centroid_Lon"], city_cfg["center"][0], city_cfg["center"][1])
     for _, row in sample_wards_comp.iterrows()
 ]
 

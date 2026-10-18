@@ -1,9 +1,3 @@
-"""
-CRADLE Dashboard - Page 4: Candidate Location Finder
-Generates and ranks 500m x 500m spatial candidate sites in high-need wards,
-evaluates multi-radius population catchment coverage, and delivers site-specific recommendations.
-"""
-
 import streamlit as st
 import geopandas as gpd
 import pandas as pd
@@ -12,7 +6,11 @@ import folium
 from streamlit_folium import st_folium
 
 import config
-from app import load_cached_system_data
+from src.ui_components import (
+    render_page_header_and_city_selector,
+    render_methodology_card,
+    load_cached_system_data,
+)
 from src.candidate_generator import CandidateLocationGenerator
 from src.candidate_ranking import CandidateRanker
 from src.coverage import PopulationCoverageAnalyzer
@@ -20,13 +18,37 @@ from src.intervention import InterventionEngine
 
 st.set_page_config(page_title="Candidate Finder | CRADLE", page_icon="📍", layout="wide")
 
-selected_city = st.session_state.get("selected_city", config.DEFAULT_CITY)
-city_cfg = config.get_city_config(selected_city)
+selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
+    page_title=f"Candidate Facility Location Finder",
+    page_icon="📍",
+    page_subtitle=f"Spatial candidate grid generation, multi-criteria suitability ranking & capital outlay estimation",
+    page_key="candidate_finder",
+)
 
-st.title(f"📍 Candidate Facility Location Finder: {city_cfg['city_name']}")
-st.caption(f"Identifies and ranks candidate locations in deficit zones of {city_cfg['city_name']} ({city_cfg['admin_body']}) using gap severity and catchment coverage contribution.")
-
-wards_gdf, facilities_gdf = load_cached_system_data(selected_city)
+render_methodology_card(
+    module_title="Candidate Generation & Multi-Criteria Ranking Methodology",
+    mathematical_formula=r"""
+    \text{Candidate Suitability Score } S_k = \sum_{m \in M} w_m \cdot s_{k,m} \times 100
+    \\[8pt]
+    S_k = w_{\text{gap}} \cdot \bar{G}_w + w_{\text{pop}} \cdot \left(\frac{P_k}{P_{\max}}\right) + w_{\text{dist}} \cdot \left(\frac{D_k}{D_{\max}}\right) + w_{\text{road}} \cdot \left(1 - \frac{R_k}{R_{\max}}\right)
+    """,
+    conceptual_explanation="""
+    The Candidate Location Finder constructs a discrete spatial search grid (e.g. 500m × 500m cells) across wards exhibiting Critical and High healthcare deficits. 
+    To avoid redundant capital deployment, an exclusion buffer (typically 600m) is circumscribed around existing hospitals. 
+    Each candidate point centroid is then evaluated through a multi-attribute utility function balancing host ward deficit severity, multi-radius population catchment reach, distance from existing healthcare infrastructure, and arterial road proximity.
+    """,
+    interpretation_points=[
+        "**Score >= 75 (Highly Recommended):** Site represents an optimal high-impact investment, reaching maximum underserved population without facility cannibalization.",
+        "**Score 60 - 74 (Recommended):** Strong secondary candidate suitable for specialized primary or community health centers.",
+        "**Multi-Radius Catchment:** Evaluates concentric radial boundaries (2 km, 3 km, 5 km) to assess local walkability vs regional vehicular coverage.",
+        "**Capital Expenditure (CapEx):** Estimated based on Indian Public Health Standards (IPHS 2022) norms for UPHC (~₹3.5 Cr) vs CHC (~₹12 Cr) vs Secondary Hospital (~₹45 Cr)."
+    ],
+    policy_implications=[
+        "Prioritize Tier-1 'Highly Recommended' candidate locations in municipal Master Development Plans to reserve land parcels before real-estate escalation.",
+        "Integrate road network proximity to guarantee emergency vehicular access and ambulance transit under 10 minutes.",
+        "Leverage ward-level deficit severity to determine whether an intervention requires an outpatient Primary Center or an inpatient Bedded Hospital."
+    ]
+)
 
 # Sidebar: Candidate Scoring Weights & Filters
 with st.sidebar:
@@ -190,6 +212,6 @@ cand_csv = ranked_candidates[display_cols].to_csv(index=False).encode("utf-8")
 st.download_button(
     "📥 Export Candidate Site Rankings (CSV)",
     data=cand_csv,
-    file_name="CRADLE_Chennai_Candidate_Rankings.csv",
+    file_name=f"CRADLE_{selected_city.title()}_Candidate_Rankings.csv",
     mime="text/csv",
 )

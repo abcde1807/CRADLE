@@ -1,9 +1,3 @@
-"""
-CRADLE Dashboard - Page 5: Scenario Simulator
-Interactive policy sandbox: simulates adding or expanding healthcare facilities,
-computing quantitative Before vs After deltas across ward gap scores and desert remediations.
-"""
-
 import streamlit as st
 import geopandas as gpd
 import pandas as pd
@@ -13,20 +7,48 @@ import folium
 from streamlit_folium import st_folium
 
 import config
-from app import load_cached_system_data
+from src.ui_components import (
+    render_page_header_and_city_selector,
+    render_methodology_card,
+    load_cached_system_data,
+)
 from src.candidate_generator import CandidateLocationGenerator
 from src.candidate_ranking import CandidateRanker
 from src.scenario import ScenarioSimulator
 
 st.set_page_config(page_title="Scenario Simulator | CRADLE", page_icon="🔬", layout="wide")
 
-selected_city = st.session_state.get("selected_city", config.DEFAULT_CITY)
-city_cfg = config.get_city_config(selected_city)
+selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
+    page_title=f"Before vs After Scenario Simulator",
+    page_icon="🔬",
+    page_subtitle=f"Counterfactual spatial intervention simulation & quantitative deficit remediation assessment",
+    page_key="scenario_sim",
+)
 
-st.title(f"🔬 Before vs After Scenario Simulator: {city_cfg['city_name']}")
-st.caption(f"Simulates the spatial impact of new healthcare infrastructure investments in {city_cfg['city_name']} ({city_cfg['admin_body']}).")
-
-wards_gdf, facilities_gdf = load_cached_system_data(selected_city)
+render_methodology_card(
+    module_title="Counterfactual Spatial Intervention Simulation Methodology",
+    mathematical_formula=r"""
+    \Delta G_i = G_i^{(\text{baseline})} - G_i^{(\text{simulated})}
+    \\[8pt]
+    d_{i,\text{hosp}}' = \min\left(d_{i,\text{hosp}}, \| \mathbf{x}_i - \mathbf{x}_{\text{new}} \|\right), \quad 
+    B_i' = B_i + \text{Beds}_{\text{new}} \cdot \mathbb{I}\left(\| \mathbf{x}_i - \mathbf{x}_{\text{new}} \| \le R_{\text{catchment}}\right)
+    """,
+    conceptual_explanation="""
+    The Scenario Simulator models the counterfactual spatial impact of constructing a new facility or augmenting capacity at a candidate site. 
+    Upon placing a facility of type $T$ with bed capacity $B$ at coordinates $(x_{\text{new}}, y_{\text{new}})$, the engine recalculates centroid-to-hospital geodesic distances across all wards, redistributes bed capacity across the overlapping catchment radius $R_{\text{catchment}}$, and re-evaluates the 4-factor composite Gap Score.
+    """,
+    interpretation_points=[
+        "**Delta Gap Score ($\\Delta G_i$):** Quantifies points of deficit alleviation achieved by the investment in ward $i$.",
+        "**Desert Remediation:** A ward transitions out of 'Healthcare Desert' status when nearest hospital distance drops under 3.0 km or local bed capacity surpasses 1.0 bed per 1,000 residents.",
+        "**Priority Category Transitions:** Visualizes how many wards successfully de-escalate from 'Critical' or 'High' into 'Moderate' or 'Low' priority tiers.",
+        "**Newly Served Catchment Population:** Aggregates residents residing within the newly established service catchment radius."
+    ],
+    policy_implications=[
+        "Conduct comparative simulation of candidate locations before finalizing land acquisitions to maximize population impact per rupee invested.",
+        "Verify whether expanding bed capacity at an existing peripheral clinic yields greater spatial equity than establishing a greenfield hospital.",
+        "Provide municipal standing committees with defensible Before-vs-After impact scorecards for public hearings."
+    ]
+)
 
 # Generate or load candidates
 @st.cache_data
