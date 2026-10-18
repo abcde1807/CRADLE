@@ -142,7 +142,7 @@ with col_map:
         icon=folium.Icon(color="darkblue", icon="info-sign"),
     ).add_to(m)
 
-    st_folium(m, width=None, height=480)
+    st_folium(m, width=None, height=480, returned_objects=[])
 
 with col_details:
     st.subheader("2SFCA Methodological Mechanics")

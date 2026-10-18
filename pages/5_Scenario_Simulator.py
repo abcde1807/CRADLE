@@ -60,15 +60,16 @@ def get_sim_candidates(city_key):
     return ranker.rank_candidates(cands, w_gdf, f_gdf)
 
 candidates_df = get_sim_candidates(selected_city)
+top_candidates = candidates_df.head(50)
 
-# Scenario Controls in Sidebar
-with st.sidebar:
+# Scenario Controls in Sidebar (Form avoids slider lag)
+with st.sidebar.form("scenario_form"):
     st.header("🎛️ Intervention Parameters")
 
     selected_candidate_id = st.selectbox(
-        "Target Candidate Location:",
-        options=candidates_df["Candidate_ID"].tolist(),
-        format_func=lambda cid: f"{cid} - #{int(candidates_df.set_index('Candidate_ID').loc[cid, 'Rank'])} in {candidates_df.set_index('Candidate_ID').loc[cid, 'Ward_Name']}",
+        "Target Candidate Location (Top 50 Sites):",
+        options=top_candidates["Candidate_ID"].tolist(),
+        format_func=lambda cid: f"{cid} - #{int(top_candidates.set_index('Candidate_ID').loc[cid, 'Rank'])} in {top_candidates.set_index('Candidate_ID').loc[cid, 'Ward_Name']} ({top_candidates.set_index('Candidate_ID').loc[cid, 'Zone']})",
     )
 
     fac_type = st.selectbox(
@@ -90,31 +91,45 @@ with st.sidebar:
     w_dist = st.slider("Distance Gap Weight", 0.0, 1.0, 0.25, 0.05)
     w_scarcity = st.slider("Scarcity Weight", 0.0, 1.0, 0.15, 0.05)
 
-    tot = w_pop + w_cap + w_dist + w_scarcity
-    scenario_weights = {
-        "population_pressure": w_pop / max(tot, 0.01),
-        "capacity_deficit": w_cap / max(tot, 0.01),
-        "distance_gap": w_dist / max(tot, 0.01),
-        "facility_scarcity": w_scarcity / max(tot, 0.01),
-    }
+    run_button = st.form_submit_button("🚀 RUN SCENARIO SIMULATION", type="primary", use_container_width=True)
 
-    run_button = st.button("🚀 RUN SCENARIO SIMULATION", type="primary", use_container_width=True)
+tot = w_pop + w_cap + w_dist + w_scarcity
+scenario_weights_tuple = (
+    ("population_pressure", round(w_pop / max(tot, 0.01), 3)),
+    ("capacity_deficit", round(w_cap / max(tot, 0.01), 3)),
+    ("distance_gap", round(w_dist / max(tot, 0.01), 3)),
+    ("facility_scarcity", round(w_scarcity / max(tot, 0.01), 3)),
+)
 
-# Candidate details
-target_cand = candidates_df.set_index("Candidate_ID").loc[selected_candidate_id]
+target_cand = top_candidates.set_index("Candidate_ID").loc[selected_candidate_id]
 
-# Execute Simulation
-simulator = ScenarioSimulator()
+@st.cache_data(show_spinner="Executing counterfactual intervention simulation...")
+def run_cached_simulation(city_key, cand_id, lat, lon, ftype, bed_count, radius_km, weights_tuple):
+    w_gdf, f_gdf = load_cached_system_data(city_key)
+    weights = dict(weights_tuple)
+    simulator = ScenarioSimulator()
+    from shapely.geometry import Point
+    sim_w, sim_f, imp = simulator.simulate_facility_addition(
+        wards_gdf=w_gdf,
+        facilities_gdf=f_gdf,
+        candidate_location=Point(lon, lat),
+        facility_type=ftype,
+        beds=bed_count,
+        coverage_radius_km=radius_km,
+        custom_weights=weights,
+    )
+    return sim_w, sim_f, imp
 
-# Run simulation
-sim_wards, sim_facs, impact = simulator.simulate_facility_addition(
-    wards_gdf=wards_gdf,
-    facilities_gdf=facilities_gdf,
-    candidate_location=target_cand.geometry,
-    facility_type=clean_type,
-    beds=beds,
-    coverage_radius_km=cov_radius,
-    custom_weights=scenario_weights,
+# Run cached simulation
+sim_wards, sim_facs, impact = run_cached_simulation(
+    selected_city,
+    selected_candidate_id,
+    float(target_cand["Latitude"]),
+    float(target_cand["Longitude"]),
+    clean_type,
+    beds,
+    cov_radius,
+    scenario_weights_tuple
 )
 
 # Display Key Impact Metrics (BEFORE vs AFTER)
@@ -155,11 +170,12 @@ with col_map:
 
     m = folium.Map(location=[target_cand["Latitude"], target_cand["Longitude"]], zoom_start=12, tiles="OpenStreetMap")
 
-    # Choropleth of Gap Reduction
+    # Fast lightweight choropleth with only essential columns
+    map_gdf = sim_wards[["Ward_ID", "Gap_Reduction", "geometry"]].copy()
     folium.Choropleth(
-        geo_data=sim_wards.to_json(),
+        geo_data=map_gdf.to_json(),
         name="Gap Reduction",
-        data=sim_wards,
+        data=map_gdf,
         columns=["Ward_ID", "Gap_Reduction"],
         key_on="feature.properties.Ward_ID",
         fill_color="YlGn",
@@ -185,7 +201,7 @@ with col_map:
         tooltip=f"{cov_radius} km Service Reach",
     ).add_to(m)
 
-    st_folium(m, width=None, height=480)
+    st_folium(m, width=None, height=480, returned_objects=[])
 
 with col_deltas:
     st.subheader("Priority Transition Comparison")

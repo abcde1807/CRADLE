@@ -48,22 +48,52 @@ class CandidateRanker:
 
         # Compute buffer coverage (3km default) for each candidate if not already present
         if "Population_Covered" not in gdf.columns or "Wards_Reached" not in gdf.columns:
-            buffers = self.spatial.create_buffers(gdf, radius_meters=coverage_radius_m)
-            wards_proj = wards_gdf.to_crs(self.spatial.crs_proj)
+            # Determine metric CRS
+            if "City_Key" in wards_gdf.columns and len(wards_gdf["City_Key"].dropna()) > 0:
+                crs_proj = config.get_city_crs(wards_gdf["City_Key"].dropna().iloc[0])
+            elif wards_gdf.crs and wards_gdf.crs.is_projected:
+                crs_proj = wards_gdf.crs
+            else:
+                crs_proj = self.spatial.crs_proj
 
-            pop_covered_list = []
-            wards_reached_count = []
-            high_gap_wards_list = []
+            wards_proj = wards_gdf.to_crs(crs_proj)
+            cands_proj = gdf.to_crs(crs_proj)
 
-            for idx, buf_geom in buffers.geometry.items():
-                cov = self.spatial.compute_buffer_coverage(buf_geom, wards_proj)
-                pop_covered_list.append(cov["population_covered"])
-                wards_reached_count.append(cov["ward_count"])
-                high_gap_wards_list.append(cov["high_gap_wards_covered"])
+            buf_geoms = cands_proj.geometry.buffer(coverage_radius_m)
+            buf_gdf = gpd.GeoDataFrame({"cand_idx": range(len(gdf))}, geometry=buf_geoms, crs=crs_proj)
 
-            gdf["Population_Covered"] = pop_covered_list
-            gdf["Wards_Reached"] = wards_reached_count
-            gdf["High_Gap_Wards_Covered"] = high_gap_wards_list
+            sj = gpd.sjoin(
+                buf_gdf,
+                wards_proj[["Ward_ID", "Population", "Gap_Score", "geometry"]],
+                predicate="intersects"
+            )
+
+            if len(sj) > 0:
+                high_gap_mask = sj["Gap_Score"] >= 50.0
+                sj["is_high_gap"] = high_gap_mask.astype(int)
+
+                agg_stats = sj.groupby("cand_idx").agg(
+                    pop_covered=("Population", "sum"),
+                    wards_reached=("Ward_ID", "nunique"),
+                    high_gap_count=("is_high_gap", "sum"),
+                )
+
+                gdf["Population_Covered"] = [
+                    int(round(agg_stats.loc[i, "pop_covered"] * 0.65)) if i in agg_stats.index else 0
+                    for i in range(len(gdf))
+                ]
+                gdf["Wards_Reached"] = [
+                    int(agg_stats.loc[i, "wards_reached"]) if i in agg_stats.index else 0
+                    for i in range(len(gdf))
+                ]
+                gdf["High_Gap_Wards_Covered"] = [
+                    int(agg_stats.loc[i, "high_gap_count"]) if i in agg_stats.index else 0
+                    for i in range(len(gdf))
+                ]
+            else:
+                gdf["Population_Covered"] = 0
+                gdf["Wards_Reached"] = 0
+                gdf["High_Gap_Wards_Covered"] = 0
 
         # Distance to existing facilities (meters / km) if not already present
         if "Facility_Distance_km" not in gdf.columns:

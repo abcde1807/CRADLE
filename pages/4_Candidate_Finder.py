@@ -139,7 +139,7 @@ with col_map:
         tooltip=f"{cov_radius} km Coverage Buffer ({sel_cand['Population_Covered']:,} pop covered)",
     ).add_to(m)
 
-    st_folium(m, width=None, height=480)
+    st_folium(m, width=None, height=480, returned_objects=[])
 
 with col_details:
     rec_tier = sel_cand["Recommendation"]

@@ -139,7 +139,7 @@ with tabs[0]:
                 fill_opacity=0.15,
             ).add_to(m_opt)
 
-        st_folium(m_opt, width=None, height=450)
+        st_folium(m_opt, width=None, height=450, returned_objects=[])
 
     with col_mclp_list:
         st.subheader("Optimal Candidate Portfolio")

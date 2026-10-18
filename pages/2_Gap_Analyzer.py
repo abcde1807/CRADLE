@@ -88,7 +88,7 @@ with col_map:
         legend_name="Healthcare Gap Score (0-100)",
     ).add_to(m)
 
-    st_folium(m, width=None, height=480)
+    st_folium(m, width=None, height=480, returned_objects=[])
 
 with col_details:
     st.subheader("🔍 Ward Explainability Diagnostic")

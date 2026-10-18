@@ -30,6 +30,31 @@ def inject_custom_css():
     """Injects modern, responsive, university-grade CSS styling across the application."""
     st.markdown(f"""
     <style>
+        /* Completely remove Streamlit Deploy button, Stop button, and default developer toolbar */
+        header[data-testid="stHeader"] {{
+            display: none !important;
+            visibility: hidden !important;
+            height: 0px !important;
+        }}
+        [data-testid="stToolbar"] {{
+            display: none !important;
+            visibility: hidden !important;
+        }}
+        .stAppDeployButton {{
+            display: none !important;
+            visibility: hidden !important;
+        }}
+        #MainMenu {{
+            visibility: hidden !important;
+        }}
+        footer {{
+            visibility: hidden !important;
+        }}
+        /* Clean top spacing */
+        .block-container {{
+            padding-top: 1.8rem !important;
+        }}
+
         /* Import clean modern typography */
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
 

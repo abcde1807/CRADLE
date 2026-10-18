@@ -96,7 +96,7 @@ with tab1:
                 popup=f"<b>{fac.get('Facility_Name', 'Facility')}</b><br>Beds: {fac.get('Beds', 0)}",
             ).add_to(m)
 
-        st_folium(m, width=None, height=460)
+        st_folium(m, width=None, height=460, returned_objects=[])
 
     with col_right:
         st.subheader("Zone-Level Healthcare Deficit Breakdown")

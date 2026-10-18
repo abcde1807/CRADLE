@@ -89,7 +89,7 @@ with col_map:
             tooltip=f"{fac['Facility_Name']}<br>Type: {fac['Facility_Type']}<br>Beds: {fac['Beds']}<br>Pop Served: {fac['Estimated_Pop_Served']:,}<br>Pressure: {fac['Pressure_Ratio']}x ({cat})",
         ).add_to(m)
 
-    st_folium(m, width=None, height=480)
+    st_folium(m, width=None, height=480, returned_objects=[])
 
 with col_table:
     st.subheader("Top Healthcare Deserts by Severity")
