@@ -23,9 +23,9 @@ st.set_page_config(page_title="Infrastructure Overview | CRADLE", page_icon="�
 
 # Universal top-corner city switcher and header
 selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
-    page_title=f"Healthcare Infrastructure Overview: {city_cfg['city_name'] if 'city_cfg' in locals() else 'Metro'}",
+    page_title="Healthcare Infrastructure Overview",
     page_icon="🏙️",
-    page_subtitle=f"Zone-level capacity analysis, geographic distribution, and multi-city benchmarking.",
+    page_subtitle="Zone-level capacity analysis, geographic distribution, and multi-city benchmarking.",
     page_key="overview"
 )
 

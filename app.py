@@ -33,7 +33,7 @@ def main():
     selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
         page_title="CRADLE: Urban Healthcare Spatial Decision-Support Engine",
         page_icon="🏥",
-        page_subtitle=f"Gap-First Resource Allocation, Facility Siting & Optimization Platform | {city_cfg['city_name']}, {city_cfg['state_name']}",
+        page_subtitle="Gap-First Resource Allocation, Facility Siting & Optimization Platform",
         page_key="home"
     )
 

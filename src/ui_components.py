@@ -269,7 +269,9 @@ def render_page_header_and_city_selector(
 
     with col_header:
         city_cfg = config.get_city_config(current_city)
-        st.markdown(f'<div class="cradle-main-title">{page_icon} {page_title}</div>', unsafe_allow_html=True)
+        cname = city_cfg["city_name"]
+        display_title = f"{page_title}: {cname}" if cname not in page_title else page_title
+        st.markdown(f'<div class="cradle-main-title">{page_icon} {display_title}</div>', unsafe_allow_html=True)
         st.markdown(f'<div class="cradle-subtitle">{page_subtitle}</div>', unsafe_allow_html=True)
         st.markdown(
             f'<div class="cradle-city-chip">📍 <b>Active City:</b> {city_cfg["city_name"]} ({city_cfg["state_code"]}) '

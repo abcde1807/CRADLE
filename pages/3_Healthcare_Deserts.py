@@ -25,9 +25,9 @@ st.set_page_config(page_title="Healthcare Deserts | CRADLE", page_icon="🏜️"
 
 # Universal top-corner city switcher and header
 selected_city, city_cfg, wards_gdf, facilities_gdf = render_page_header_and_city_selector(
-    page_title=f"Healthcare Desert Detection & Facility Pressure: {city_cfg['city_name'] if 'city_cfg' in locals() else 'Metro'}",
+    page_title="Healthcare Desert Detection & Facility Pressure",
     page_icon="🏜️",
-    page_subtitle=f"Pinpoints acute geographic service voids and quantifies gravity queueing strain on hospitals.",
+    page_subtitle="Pinpoints acute geographic service voids and quantifies gravity queueing strain on hospitals.",
     page_key="deserts"
 )
 
